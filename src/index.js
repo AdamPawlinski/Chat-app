@@ -6,6 +6,7 @@ const UserService = require('./UserService');
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
+const userService = new UserService();
 
 app.use(express.static(__dirname + '/public'));
 
@@ -43,8 +44,6 @@ io.on('connection', function(socket){
     });
   });
 });
-
-
 
 server.listen(3000, function(){
   console.log('listening on *:3000');

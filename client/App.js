@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import io from 'socket.io-client';
-import styles from './App.css';
+import styles from './styles/App.css';
 import MessageList from './MessageList';
+import MessageForm from './MessageForm';
 import UserList from './UserList';
 import UserForm from './UserForm';
 
@@ -32,31 +33,39 @@ class App extends Component{
     socket.emit('join', name);
   }
 
+  handleMessageSubmit(message){
+    const messages = [message, ...this.state.messages];
+    this.setState({messages});
+    socket.emit('message', message);
+  }
+
   render(){
     return this.state.name !== '' ? this.renderLayout() : this.renderUserForm();
   }
 
   renderLayout(){
-    <div className={styles.App}>
-      <div className={styles.AppHeader}>
-        <div className={styles.AppTitle}>
-          Chat-app
+    return (
+      <div className={styles.App}>
+        <div className={styles.AppHeader}>
+          <div className={styles.AppTitle}>
+            Chat-app
+          </div>
+          <div className={styles.AppRoom}>
+            App room
+          </div>
         </div>
-        <div className={styles.AppRoom}>
-          App room
+        <div className={styles.AppBody}>
+          <UserList users={this.state.users}/>
+          <div className={styles.MessageWrapper}>
+            <MessageList message={this.state.messages}/>
+            <MessageForm
+              onMessageSubmit={message => this.handleMessageSubmit(message)}
+              name={this.state.name}
+            />
+          </div>
         </div>
       </div>
-      <div className={styles.AppBody}>
-        <UsersList users={this.state.users}/>
-      </div>
-      <div className={styles.MessageWrapper}>
-        <MessageList message={this.state.messages}/>
-      </div>
-      <MessageForm
-        onMessageSubmit={message = > this.handleMessageSubmit(message)}
-        name={this.state.name}
-      />
-    </div>
+    );
   }
 
   renderUserForm(){

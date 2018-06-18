@@ -4,7 +4,7 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeJsPlugin = require('optimize-js-plugin');
 const plugins = [
   new HtmlWebpackPlugin({
-    template: 'public/index.html',
+    template: './src/index.html',
     filename: 'index.html',
     inject: 'body'
 })];
@@ -15,7 +15,7 @@ module.exports = (env) => {
       'react-hot-loader/patch',
       'webpack-dev-server/client?http://localhost:8080',
       'webpack/hot/only-dev-server'
-    ] : []).concat([./client/index.js']),
+    ] : []).concat(['./client/index.js']),
     output: {
       path: path.resolve(__dirname, 'public'),
       filename: './public/bundle.js'

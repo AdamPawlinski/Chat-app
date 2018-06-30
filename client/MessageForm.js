@@ -3,6 +3,7 @@ import styles from './styles/MessageForm.css';
 
 class MessageForm extends Component{
   constructor(props){
+    console.log(props);
     super(props);
     this.state = {text: ''};
   }

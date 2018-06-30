@@ -10,6 +10,7 @@ const socket = io('/');
 
 class App extends Component{
   constructor(props){
+    console.log(props);
     super(props);
     this.state = {users: [], messages: [], text: '', name: ''};
   }
@@ -20,11 +21,13 @@ class App extends Component{
   }
 
   messageReceive(message){
+    console.log(message);
     const messages = [message, ...this.state.messages];
     this.setState({messages});
   }
 
   chatUpdate(users){
+    console.log(users);
     this.setState({users});
   }
 

@@ -18,7 +18,7 @@ module.exports = (env) => {
     ] : []).concat(['./client/index.js']),
     output: {
       path: path.resolve(__dirname, 'public'),
-      filename: './public/bundle.js'
+      filename: './bundle.js'
     },
     module: {
       rules: [
@@ -40,6 +40,6 @@ module.exports = (env) => {
         }
       ]
     },
-    plugins: plugins
+    plugins
   }
 };

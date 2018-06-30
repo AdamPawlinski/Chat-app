@@ -32,6 +32,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode development",
     "build": "set NODE_ENV=production&webpack",
-    "start:hot": "webpack-dev-server --hot --env"
+    "start:hot": "webpack-dev-server --hot --env",
+    "start:prod": "webpack --env production"
   }
 }

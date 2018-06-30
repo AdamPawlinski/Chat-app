@@ -3,6 +3,7 @@ import styles from './styles/UserForm.css';
 
 class UserForm extends Component{
   constructor(props){
+    console.log(props);
     super(props);
     this.state = {name: ''};
   }

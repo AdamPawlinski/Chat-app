@@ -12,7 +12,7 @@ const plugins = [
 module.exports = (env) => {
   return {
     entry: (env !== 'production' ? [
-      'react-hot-loader/patch',
+      'react-hot-loader/babel',
       'webpack-dev-server/client?http://localhost:8080',
       'webpack/hot/only-dev-server'
     ] : []).concat(['./client/index.js']),

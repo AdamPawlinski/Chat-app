@@ -60,60 +60,14 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 41);
+/******/ 	return __webpack_require__(__webpack_require__.s = 40);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-if (true) {
-  module.exports = __webpack_require__(43);
-} else {
-  module.exports = require('./dist/react-hot-loader.development.js');
-}
-
-/***/ }),
-/* 1 */
 /***/ (function(module, exports) {
 
-module.exports = function (module) {
-	if (!module.webpackPolyfill) {
-		module.deprecate = function () {};
-		module.paths = [];
-		// module.parent = undefined by default
-		if (!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function get() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function get() {
-				return module.i;
-			}
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-	var enterModule = __webpack_require__(0).enterModule;
-
-	enterModule && enterModule(module);
-})();
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var g;
 
@@ -137,31 +91,19 @@ try {
 module.exports = g;
 ;
 
-(function () {
-	var reactHotLoader = __webpack_require__(0).default;
-
-	var leaveModule = __webpack_require__(0).leaveModule;
-
-	if (!reactHotLoader) {
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
 		return;
 	}
 
-	reactHotLoader.register(g, "g", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/webpack/buildin/global.js");
-	leaveModule(module);
-})();
+	__REACT_HOT_LOADER__.register(g, "g", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/webpack/buildin/global.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-    var enterModule = __webpack_require__(0).enterModule;
-
-    enterModule && enterModule(module);
-})();
+/* 1 */
+/***/ (function(module, exports) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -350,88 +292,71 @@ process.umask = function () {
 };
 ;
 
-(function () {
-    var reactHotLoader = __webpack_require__(0).default;
-
-    var leaveModule = __webpack_require__(0).leaveModule;
-
-    if (!reactHotLoader) {
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
         return;
     }
 
-    reactHotLoader.register(process, 'process', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(cachedSetTimeout, 'cachedSetTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(cachedClearTimeout, 'cachedClearTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(defaultSetTimout, 'defaultSetTimout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(defaultClearTimeout, 'defaultClearTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(runTimeout, 'runTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(runClearTimeout, 'runClearTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(queue, 'queue', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(draining, 'draining', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(currentQueue, 'currentQueue', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(queueIndex, 'queueIndex', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(cleanUpNextTick, 'cleanUpNextTick', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(drainQueue, 'drainQueue', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(Item, 'Item', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    reactHotLoader.register(noop, 'noop', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
-    leaveModule(module);
-})();
+    __REACT_HOT_LOADER__.register(process, 'process', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(cachedSetTimeout, 'cachedSetTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(cachedClearTimeout, 'cachedClearTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(defaultSetTimout, 'defaultSetTimout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(defaultClearTimeout, 'defaultClearTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(runTimeout, 'runTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(runClearTimeout, 'runClearTimeout', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(queue, 'queue', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(draining, 'draining', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(currentQueue, 'currentQueue', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(queueIndex, 'queueIndex', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(cleanUpNextTick, 'cleanUpNextTick', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(drainQueue, 'drainQueue', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(Item, 'Item', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+
+    __REACT_HOT_LOADER__.register(noop, 'noop', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/process/browser.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 4 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(44);
+  module.exports = __webpack_require__(42);
 } else {
-  module.exports = __webpack_require__(45);
+  module.exports = __webpack_require__(43);
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 5 */
-/***/ (function(module, exports) {
-
-module.exports = function (originalModule) {
-	if (!originalModule.webpackPolyfill) {
-		var module = Object.create(originalModule);
-		// module.parent = undefined by default
-		if (!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function get() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function get() {
-				return module.i;
-			}
-		});
-		Object.defineProperty(module, "exports", {
-			enumerable: true
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-/***/ }),
-/* 6 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 /**
  * Expose `Emitter`.
@@ -592,46 +517,35 @@ Emitter.prototype.hasListeners = function (event) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(Emitter, 'Emitter', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/component-emitter/index.js');
-  reactHotLoader.register(mixin, 'mixin', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/component-emitter/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(Emitter, 'Emitter', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/component-emitter/index.js');
+
+  __REACT_HOT_LOADER__.register(mixin, 'mixin', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/component-emitter/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 7 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-/**
+/* WEBPACK VAR INJECTION */(function(global) {/**
  * Module dependencies.
  */
 
-var keys = __webpack_require__(67);
-var hasBinary = __webpack_require__(34);
-var sliceBuffer = __webpack_require__(72);
-var after = __webpack_require__(73);
-var utf8 = __webpack_require__(74);
+var keys = __webpack_require__(70);
+var hasBinary = __webpack_require__(31);
+var sliceBuffer = __webpack_require__(75);
+var after = __webpack_require__(76);
+var utf8 = __webpack_require__(77);
 
 var base64encoder;
 if (global && global.ArrayBuffer) {
-  base64encoder = __webpack_require__(75);
+  base64encoder = __webpack_require__(79);
 }
 
 /**
@@ -689,7 +603,7 @@ var err = { type: 'error', data: 'parser error' };
  * Create a blob api even for blob builder when vendor prefixes exist
  */
 
-var Blob = __webpack_require__(76);
+var Blob = __webpack_require__(80);
 
 /**
  * Encodes a packet.
@@ -1225,40 +1139,47 @@ exports.decodePayloadAsBinary = function (data, binaryType, callback) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(base64encoder, 'base64encoder', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(isAndroid, 'isAndroid', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(isPhantomJS, 'isPhantomJS', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(dontSendBlobs, 'dontSendBlobs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(packets, 'packets', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(packetslist, 'packetslist', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(err, 'err', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(encodeBase64Object, 'encodeBase64Object', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(encodeArrayBuffer, 'encodeArrayBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(encodeBlobAsArrayBuffer, 'encodeBlobAsArrayBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(encodeBlob, 'encodeBlob', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(tryDecode, 'tryDecode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  reactHotLoader.register(map, 'map', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(base64encoder, 'base64encoder', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(isAndroid, 'isAndroid', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(isPhantomJS, 'isPhantomJS', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(dontSendBlobs, 'dontSendBlobs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(packets, 'packets', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(packetslist, 'packetslist', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(err, 'err', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(encodeBase64Object, 'encodeBase64Object', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(encodeArrayBuffer, 'encodeArrayBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(encodeBlobAsArrayBuffer, 'encodeBlobAsArrayBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(encodeBlob, 'encodeBlob', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(tryDecode, 'tryDecode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+
+  __REACT_HOT_LOADER__.register(map, 'map', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-parser/lib/browser.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 8 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module, process) {/**
+/* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -1278,12 +1199,6 @@ exports.decodePayloadAsBinary = function (data, binaryType, callback) {
  * The invariant message will be stripped in production, but the invariant
  * will remain to ensure logic does not differ in production.
  */
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 var validateFormat = function validateFormat(format) {};
 
@@ -1319,29 +1234,25 @@ function invariant(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(validateFormat, 'validateFormat', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/invariant.js');
-  reactHotLoader.register(invariant, 'invariant', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/invariant.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(validateFormat, 'validateFormat', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/invariant.js');
+
+  __REACT_HOT_LOADER__.register(invariant, 'invariant', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/invariant.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 9 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
+
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1351,12 +1262,6 @@ module.exports = invariant;
  *
  * 
  */
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 function makeEmptyFunction(arg) {
   return function () {
@@ -1385,32 +1290,21 @@ emptyFunction.thatReturnsArgument = function (arg) {
 module.exports = emptyFunction;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(makeEmptyFunction, "makeEmptyFunction", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/emptyFunction.js");
-  reactHotLoader.register(emptyFunction, "emptyFunction", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/emptyFunction.js");
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(makeEmptyFunction, "makeEmptyFunction", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/emptyFunction.js");
+
+  __REACT_HOT_LOADER__.register(emptyFunction, "emptyFunction", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/emptyFunction.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-	var enterModule = __webpack_require__(0).enterModule;
-
-	enterModule && enterModule(module);
-})();
+/* 7 */
+/***/ (function(module, exports) {
 
 /*
 	MIT License http://www.opensource.org/licenses/mit-license.php
@@ -1488,25 +1382,20 @@ function toComment(sourceMap) {
 }
 ;
 
-(function () {
-	var reactHotLoader = __webpack_require__(0).default;
-
-	var leaveModule = __webpack_require__(0).leaveModule;
-
-	if (!reactHotLoader) {
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
 		return;
 	}
 
-	reactHotLoader.register(cssWithMappingToString, "cssWithMappingToString", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/css-loader/lib/css-base.js");
-	reactHotLoader.register(toComment, "toComment", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/css-loader/lib/css-base.js");
-	leaveModule(module);
-})();
+	__REACT_HOT_LOADER__.register(cssWithMappingToString, "cssWithMappingToString", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/css-loader/lib/css-base.js");
+
+	__REACT_HOT_LOADER__.register(toComment, "toComment", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/css-loader/lib/css-base.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 11 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -1572,7 +1461,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(85);
+var	fixUrls = __webpack_require__(89);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -1892,11 +1781,11 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 12 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/*
+/*
 object-assign
 (c) Sindre Sorhus
 @license MIT
@@ -1904,12 +1793,6 @@ object-assign
 
 
 /* eslint-disable no-unused-vars */
-
-(function () {
-	var enterModule = __webpack_require__(0).enterModule;
-
-	enterModule && enterModule(module);
-})();
 
 var getOwnPropertySymbols = Object.getOwnPropertySymbols;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -1994,32 +1877,30 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 };
 ;
 
-(function () {
-	var reactHotLoader = __webpack_require__(0).default;
-
-	var leaveModule = __webpack_require__(0).leaveModule;
-
-	if (!reactHotLoader) {
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
 		return;
 	}
 
-	reactHotLoader.register(getOwnPropertySymbols, 'getOwnPropertySymbols', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
-	reactHotLoader.register(hasOwnProperty, 'hasOwnProperty', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
-	reactHotLoader.register(propIsEnumerable, 'propIsEnumerable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
-	reactHotLoader.register(toObject, 'toObject', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
-	reactHotLoader.register(shouldUseNative, 'shouldUseNative', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
-	leaveModule(module);
-})();
+	__REACT_HOT_LOADER__.register(getOwnPropertySymbols, 'getOwnPropertySymbols', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
+
+	__REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
+
+	__REACT_HOT_LOADER__.register(propIsEnumerable, 'propIsEnumerable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
+
+	__REACT_HOT_LOADER__.register(toObject, 'toObject', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
+
+	__REACT_HOT_LOADER__.register(shouldUseNative, 'shouldUseNative', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/object-assign/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 13 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module, process) {/**
+/* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -2028,12 +1909,6 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
  */
 
 
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 var emptyObject = {};
 
@@ -2044,33 +1919,22 @@ if (process.env.NODE_ENV !== 'production') {
 module.exports = emptyObject;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(emptyObject, 'emptyObject', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/emptyObject.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(emptyObject, 'emptyObject', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/emptyObject.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 14 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, process) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* WEBPACK VAR INJECTION */(function(process) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /**
  * This is the web browser implementation of `debug()`.
@@ -2078,7 +1942,7 @@ module.exports = emptyObject;
  * Expose `debug()` as the module.
  */
 
-exports = module.exports = __webpack_require__(59);
+exports = module.exports = __webpack_require__(62);
 exports.log = log;
 exports.formatArgs = formatArgs;
 exports.save = save;
@@ -2246,29 +2110,29 @@ function localstorage() {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(useColors, 'useColors', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(formatArgs, 'formatArgs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(log, 'log', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(save, 'save', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(load, 'load', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(localstorage, 'localstorage', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(useColors, 'useColors', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(formatArgs, 'formatArgs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(log, 'log', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(save, 'save', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(load, 'load', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(localstorage, 'localstorage', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/browser.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 15 */
+/* 12 */
 /***/ (function(module, exports) {
 
 /**
@@ -2308,9 +2172,18 @@ exports.decode = function (qs) {
   }
   return qry;
 };
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
-/* 16 */
+/* 13 */
 /***/ (function(module, exports) {
 
 
@@ -2320,18 +2193,21 @@ module.exports = function (a, b) {
   a.prototype = new fn();
   a.prototype.constructor = a;
 };
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
-/* 17 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, process) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* WEBPACK VAR INJECTION */(function(process) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /**
  * This is the web browser implementation of `debug()`.
@@ -2339,7 +2215,7 @@ module.exports = function (a, b) {
  * Expose `debug()` as the module.
  */
 
-exports = module.exports = __webpack_require__(77);
+exports = module.exports = __webpack_require__(81);
 exports.log = log;
 exports.formatArgs = formatArgs;
 exports.save = save;
@@ -2507,33 +2383,33 @@ function localstorage() {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(useColors, 'useColors', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(formatArgs, 'formatArgs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(log, 'log', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(save, 'save', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(load, 'load', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
-  reactHotLoader.register(localstorage, 'localstorage', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(useColors, 'useColors', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(formatArgs, 'formatArgs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(log, 'log', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(save, 'save', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(load, 'load', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(localstorage, 'localstorage', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/browser.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 18 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module, process) {/**
+/* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -2543,13 +2419,7 @@ function localstorage() {
 
 
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-var emptyFunction = __webpack_require__(9);
+var emptyFunction = __webpack_require__(6);
 
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
@@ -2603,34 +2473,24 @@ if (process.env.NODE_ENV !== 'production') {
 module.exports = warning;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(warning, 'warning', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/warning.js');
-  reactHotLoader.register(printWarning, 'printWarning', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/warning.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(warning, 'warning', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/warning.js');
+
+  __REACT_HOT_LOADER__.register(printWarning, 'printWarning', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/warning.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 19 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 16 */
+/***/ (function(module, exports) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /**
  * Helpers.
@@ -2777,49 +2637,46 @@ function plural(ms, n, name) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(s, 's', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
-  reactHotLoader.register(m, 'm', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
-  reactHotLoader.register(h, 'h', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
-  reactHotLoader.register(d, 'd', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
-  reactHotLoader.register(y, 'y', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
-  reactHotLoader.register(parse, 'parse', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
-  reactHotLoader.register(fmtShort, 'fmtShort', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
-  reactHotLoader.register(fmtLong, 'fmtLong', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
-  reactHotLoader.register(plural, 'plural', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(s, 's', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
+
+  __REACT_HOT_LOADER__.register(m, 'm', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
+
+  __REACT_HOT_LOADER__.register(h, 'h', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
+
+  __REACT_HOT_LOADER__.register(d, 'd', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
+
+  __REACT_HOT_LOADER__.register(y, 'y', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
+
+  __REACT_HOT_LOADER__.register(parse, 'parse', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
+
+  __REACT_HOT_LOADER__.register(fmtShort, 'fmtShort', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
+
+  __REACT_HOT_LOADER__.register(fmtLong, 'fmtLong', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
+
+  __REACT_HOT_LOADER__.register(plural, 'plural', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/ms/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 20 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 /**
  * Module dependencies.
  */
 
-var debug = __webpack_require__(60)('socket.io-parser');
-var Emitter = __webpack_require__(6);
-var binary = __webpack_require__(62);
-var isArray = __webpack_require__(21);
-var isBuf = __webpack_require__(30);
+var debug = __webpack_require__(63)('socket.io-parser');
+var Emitter = __webpack_require__(3);
+var binary = __webpack_require__(65);
+var isArray = __webpack_require__(18);
+var isBuf = __webpack_require__(27);
 
 /**
  * Protocol version.
@@ -3224,41 +3081,39 @@ function error(msg) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(Encoder, 'Encoder', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(ERROR_PACKET, 'ERROR_PACKET', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(encodeAsString, 'encodeAsString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(tryStringify, 'tryStringify', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(encodeAsBinary, 'encodeAsBinary', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(Decoder, 'Decoder', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(decodeString, 'decodeString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(tryParse, 'tryParse', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(BinaryReconstructor, 'BinaryReconstructor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  reactHotLoader.register(error, 'error', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(Encoder, 'Encoder', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(ERROR_PACKET, 'ERROR_PACKET', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(encodeAsString, 'encodeAsString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(tryStringify, 'tryStringify', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(encodeAsBinary, 'encodeAsBinary', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(Decoder, 'Decoder', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(decodeString, 'decodeString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(tryParse, 'tryParse', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(BinaryReconstructor, 'BinaryReconstructor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+
+  __REACT_HOT_LOADER__.register(error, 'error', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 21 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* 18 */
+/***/ (function(module, exports) {
 
 var toString = {}.toString;
 
@@ -3267,29 +3122,23 @@ module.exports = Array.isArray || function (arr) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(toString, 'toString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/isarray/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(toString, 'toString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/isarray/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 22 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {// browser shim for xmlhttprequest module
 
-var hasCORS = __webpack_require__(65);
+var hasCORS = __webpack_require__(68);
 
 module.exports = function (opts) {
   var xdomain = opts.xdomain;
@@ -3324,24 +3173,27 @@ module.exports = function (opts) {
     } catch (e) {}
   }
 };
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 23 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 /**
  * Module dependencies.
  */
 
-var parser = __webpack_require__(7);
-var Emitter = __webpack_require__(6);
+var parser = __webpack_require__(4);
+var Emitter = __webpack_require__(3);
 
 /**
  * Module exports.
@@ -3495,28 +3347,22 @@ Transport.prototype.onClose = function () {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(Transport, 'Transport', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transport.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(Transport, 'Transport', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transport.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 24 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module, process) {/**
+/* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -3527,16 +3373,10 @@ Transport.prototype.onClose = function () {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
 if (process.env.NODE_ENV !== 'production') {
-  var invariant = __webpack_require__(8);
-  var warning = __webpack_require__(18);
-  var ReactPropTypesSecret = __webpack_require__(46);
+  var invariant = __webpack_require__(5);
+  var warning = __webpack_require__(15);
+  var ReactPropTypesSecret = __webpack_require__(44);
   var loggedTypeFailures = {};
 }
 
@@ -3585,29 +3425,25 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(loggedTypeFailures, 'loggedTypeFailures', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/prop-types/checkPropTypes.js');
-  reactHotLoader.register(checkPropTypes, 'checkPropTypes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/prop-types/checkPropTypes.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(loggedTypeFailures, 'loggedTypeFailures', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/prop-types/checkPropTypes.js');
+
+  __REACT_HOT_LOADER__.register(checkPropTypes, 'checkPropTypes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/prop-types/checkPropTypes.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 25 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/**
+/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -3616,12 +3452,6 @@ module.exports = checkPropTypes;
  */
 
 
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 var canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 
@@ -3648,29 +3478,24 @@ var ExecutionEnvironment = {
 module.exports = ExecutionEnvironment;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(canUseDOM, 'canUseDOM', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/ExecutionEnvironment.js');
-  reactHotLoader.register(ExecutionEnvironment, 'ExecutionEnvironment', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/ExecutionEnvironment.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(canUseDOM, 'canUseDOM', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/ExecutionEnvironment.js');
+
+  __REACT_HOT_LOADER__.register(ExecutionEnvironment, 'ExecutionEnvironment', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/ExecutionEnvironment.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 26 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
+
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -3694,12 +3519,6 @@ module.exports = ExecutionEnvironment;
  * @return {?DOMElement}
  */
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
 function getActiveElement(doc) /*?DOMElement*/{
   doc = doc || (typeof document !== 'undefined' ? document : undefined);
   if (typeof doc === 'undefined') {
@@ -3715,28 +3534,22 @@ function getActiveElement(doc) /*?DOMElement*/{
 module.exports = getActiveElement;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(getActiveElement, 'getActiveElement', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/getActiveElement.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(getActiveElement, 'getActiveElement', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/getActiveElement.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 27 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/**
+/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -3751,12 +3564,6 @@ module.exports = getActiveElement;
 
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
@@ -3811,30 +3618,26 @@ function shallowEqual(objA, objB) {
 module.exports = shallowEqual;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(hasOwnProperty, 'hasOwnProperty', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/shallowEqual.js');
-  reactHotLoader.register(is, 'is', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/shallowEqual.js');
-  reactHotLoader.register(shallowEqual, 'shallowEqual', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/shallowEqual.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/shallowEqual.js');
+
+  __REACT_HOT_LOADER__.register(is, 'is', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/shallowEqual.js');
+
+  __REACT_HOT_LOADER__.register(shallowEqual, 'shallowEqual', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/shallowEqual.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 28 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
+
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -3845,13 +3648,7 @@ module.exports = shallowEqual;
  * 
  */
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-var isTextNode = __webpack_require__(49);
+var isTextNode = __webpack_require__(47);
 
 /*eslint-disable no-bitwise */
 
@@ -3879,31 +3676,19 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(containsNode, 'containsNode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/containsNode.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(containsNode, 'containsNode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/containsNode.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 29 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-    var enterModule = __webpack_require__(0).enterModule;
-
-    enterModule && enterModule(module);
-})();
+/* 26 */
+/***/ (function(module, exports) {
 
 /**
  * Parses an URI
@@ -3944,33 +3729,23 @@ module.exports = function parseuri(str) {
 };
 ;
 
-(function () {
-    var reactHotLoader = __webpack_require__(0).default;
-
-    var leaveModule = __webpack_require__(0).leaveModule;
-
-    if (!reactHotLoader) {
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
         return;
     }
 
-    reactHotLoader.register(re, 're', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/parseuri/index.js');
-    reactHotLoader.register(parts, 'parts', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/parseuri/index.js');
-    leaveModule(module);
-})();
+    __REACT_HOT_LOADER__.register(re, 're', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/parseuri/index.js');
+
+    __REACT_HOT_LOADER__.register(parts, 'parts', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/parseuri/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 30 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
+/* WEBPACK VAR INJECTION */(function(global) {
 module.exports = isBuf;
 
 var withNativeBuffer = typeof global.Buffer === 'function' && typeof global.Buffer.isBuffer === 'function';
@@ -3997,50 +3772,42 @@ function isBuf(obj) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(withNativeBuffer, 'withNativeBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/is-buffer.js');
-  reactHotLoader.register(withNativeArrayBuffer, 'withNativeArrayBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/is-buffer.js');
-  reactHotLoader.register(isView, 'isView', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/is-buffer.js');
-  reactHotLoader.register(isBuf, 'isBuf', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/is-buffer.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(withNativeBuffer, 'withNativeBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/is-buffer.js');
+
+  __REACT_HOT_LOADER__.register(withNativeArrayBuffer, 'withNativeArrayBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/is-buffer.js');
+
+  __REACT_HOT_LOADER__.register(isView, 'isView', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/is-buffer.js');
+
+  __REACT_HOT_LOADER__.register(isBuf, 'isBuf', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/is-buffer.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 31 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /**
  * Module dependencies.
  */
 
-var eio = __webpack_require__(63);
-var Socket = __webpack_require__(38);
-var Emitter = __webpack_require__(6);
-var parser = __webpack_require__(20);
-var on = __webpack_require__(39);
-var bind = __webpack_require__(40);
-var debug = __webpack_require__(14)('socket.io-client:manager');
-var indexOf = __webpack_require__(37);
-var Backoff = __webpack_require__(82);
+var eio = __webpack_require__(66);
+var Socket = __webpack_require__(35);
+var Emitter = __webpack_require__(3);
+var parser = __webpack_require__(17);
+var on = __webpack_require__(36);
+var bind = __webpack_require__(37);
+var debug = __webpack_require__(11)('socket.io-client:manager');
+var indexOf = __webpack_require__(34);
+var Backoff = __webpack_require__(86);
 
 /**
  * IE6+ hasOwnProperty
@@ -4601,42 +4368,32 @@ Manager.prototype.onreconnect = function () {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/manager.js');
-  reactHotLoader.register(has, 'has', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/manager.js');
-  reactHotLoader.register(Manager, 'Manager', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/manager.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/manager.js');
+
+  __REACT_HOT_LOADER__.register(has, 'has', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/manager.js');
+
+  __REACT_HOT_LOADER__.register(Manager, 'Manager', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/manager.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 32 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-/**
+/* WEBPACK VAR INJECTION */(function(global) {/**
  * Module dependencies
  */
 
-var XMLHttpRequest = __webpack_require__(22);
-var XHR = __webpack_require__(66);
-var JSONP = __webpack_require__(78);
-var websocket = __webpack_require__(79);
+var XMLHttpRequest = __webpack_require__(19);
+var XHR = __webpack_require__(69);
+var JSONP = __webpack_require__(82);
+var websocket = __webpack_require__(83);
 
 /**
  * Export transports.
@@ -4684,42 +4441,31 @@ function polling(opts) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(polling, 'polling', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(polling, 'polling', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 33 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 /**
  * Module dependencies.
  */
 
-var Transport = __webpack_require__(23);
-var parseqs = __webpack_require__(15);
-var parser = __webpack_require__(7);
-var inherit = __webpack_require__(16);
-var yeast = __webpack_require__(36);
-var debug = __webpack_require__(17)('engine.io-client:polling');
+var Transport = __webpack_require__(20);
+var parseqs = __webpack_require__(12);
+var parser = __webpack_require__(4);
+var inherit = __webpack_require__(13);
+var yeast = __webpack_require__(33);
+var debug = __webpack_require__(14)('engine.io-client:polling');
 
 /**
  * Module exports.
@@ -4732,7 +4478,7 @@ module.exports = Polling;
  */
 
 var hasXHR2 = function () {
-  var XMLHttpRequest = __webpack_require__(22);
+  var XMLHttpRequest = __webpack_require__(19);
   var xhr = new XMLHttpRequest({ xdomain: false });
   return null != xhr.responseType;
 }();
@@ -4956,35 +4702,25 @@ Polling.prototype.uri = function () {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling.js');
-  reactHotLoader.register(hasXHR2, 'hasXHR2', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling.js');
-  reactHotLoader.register(Polling, 'Polling', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling.js');
+
+  __REACT_HOT_LOADER__.register(hasXHR2, 'hasXHR2', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling.js');
+
+  __REACT_HOT_LOADER__.register(Polling, 'Polling', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 34 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, Buffer) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* WEBPACK VAR INJECTION */(function(Buffer) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /* global Blob File */
 
@@ -4992,7 +4728,7 @@ Polling.prototype.uri = function () {
  * Module requirements.
  */
 
-var isArray = __webpack_require__(21);
+var isArray = __webpack_require__(18);
 
 var toString = Object.prototype.toString;
 var withNativeBlob = typeof Blob === 'function' || typeof Blob !== 'undefined' && toString.call(Blob) === '[object BlobConstructor]';
@@ -5046,27 +4782,25 @@ function hasBinary(obj) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(toString, 'toString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/has-binary2/index.js');
-  reactHotLoader.register(withNativeBlob, 'withNativeBlob', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/has-binary2/index.js');
-  reactHotLoader.register(withNativeFile, 'withNativeFile', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/has-binary2/index.js');
-  reactHotLoader.register(hasBinary, 'hasBinary', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/has-binary2/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(toString, 'toString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/has-binary2/index.js');
+
+  __REACT_HOT_LOADER__.register(withNativeBlob, 'withNativeBlob', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/has-binary2/index.js');
+
+  __REACT_HOT_LOADER__.register(withNativeFile, 'withNativeFile', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/has-binary2/index.js');
+
+  __REACT_HOT_LOADER__.register(hasBinary, 'hasBinary', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/has-binary2/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(68).Buffer))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(71).Buffer))
 
 /***/ }),
-/* 35 */
+/* 32 */
 /***/ (function(module, exports) {
 
 /* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {/* globals __webpack_amd_options__ */
@@ -5075,17 +4809,11 @@ module.exports = __webpack_amd_options__;
 /* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ }),
-/* 36 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 var alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_'.split(''),
     length = 64,
@@ -5155,39 +4883,36 @@ yeast.decode = decode;
 module.exports = yeast;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(alphabet, 'alphabet', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
-  reactHotLoader.register(length, 'length', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
-  reactHotLoader.register(map, 'map', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
-  reactHotLoader.register(seed, 'seed', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
-  reactHotLoader.register(i, 'i', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
-  reactHotLoader.register(prev, 'prev', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
-  reactHotLoader.register(encode, 'encode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
-  reactHotLoader.register(decode, 'decode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
-  reactHotLoader.register(yeast, 'yeast', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(alphabet, 'alphabet', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
+
+  __REACT_HOT_LOADER__.register(length, 'length', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
+
+  __REACT_HOT_LOADER__.register(map, 'map', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
+
+  __REACT_HOT_LOADER__.register(seed, 'seed', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
+
+  __REACT_HOT_LOADER__.register(i, 'i', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
+
+  __REACT_HOT_LOADER__.register(prev, 'prev', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
+
+  __REACT_HOT_LOADER__.register(encode, 'encode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
+
+  __REACT_HOT_LOADER__.register(decode, 'decode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
+
+  __REACT_HOT_LOADER__.register(yeast, 'yeast', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/yeast/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 37 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 34 */
+/***/ (function(module, exports) {
 
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 var indexOf = [].indexOf;
 
@@ -5200,46 +4925,34 @@ module.exports = function (arr, obj) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(indexOf, "indexOf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/indexof/index.js");
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(indexOf, "indexOf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/indexof/index.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 38 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /**
  * Module dependencies.
  */
 
-var parser = __webpack_require__(20);
-var Emitter = __webpack_require__(6);
-var toArray = __webpack_require__(81);
-var on = __webpack_require__(39);
-var bind = __webpack_require__(40);
-var debug = __webpack_require__(14)('socket.io-client:socket');
-var parseqs = __webpack_require__(15);
-var hasBin = __webpack_require__(34);
+var parser = __webpack_require__(17);
+var Emitter = __webpack_require__(3);
+var toArray = __webpack_require__(85);
+var on = __webpack_require__(36);
+var bind = __webpack_require__(37);
+var debug = __webpack_require__(11)('socket.io-client:socket');
+var parseqs = __webpack_require__(12);
+var hasBin = __webpack_require__(31);
 
 /**
  * Module exports.
@@ -5661,34 +5374,26 @@ Socket.prototype.binary = function (binary) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/socket.js');
-  reactHotLoader.register(events, 'events', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/socket.js');
-  reactHotLoader.register(emit, 'emit', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/socket.js');
-  reactHotLoader.register(Socket, 'Socket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/socket.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/socket.js');
+
+  __REACT_HOT_LOADER__.register(events, 'events', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/socket.js');
+
+  __REACT_HOT_LOADER__.register(emit, 'emit', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/socket.js');
+
+  __REACT_HOT_LOADER__.register(Socket, 'Socket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/socket.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 39 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 36 */
+/***/ (function(module, exports) {
 
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 /**
  * Module exports.
@@ -5715,31 +5420,19 @@ function on(obj, ev, fn) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(on, "on", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/on.js");
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(on, "on", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/on.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 40 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* 37 */
+/***/ (function(module, exports) {
 
 /**
  * Slice reference.
@@ -5766,48 +5459,126 @@ module.exports = function (obj, fn) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(slice, 'slice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/component-bind/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(slice, 'slice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/component-bind/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports) {
+
+// Unique ID creation requires a high quality random # generator.  In the
+// browser this is a little complicated due to unknown quality of Math.random()
+// and inconsistent support for the `crypto` API.  We do the best we can via
+// feature-detection
+
+// getRandomValues needs to be invoked in a context where "this" is a Crypto
+// implementation. Also, find the complete implementation of crypto on IE11.
+var getRandomValues = typeof crypto != 'undefined' && crypto.getRandomValues && crypto.getRandomValues.bind(crypto) || typeof msCrypto != 'undefined' && typeof window.msCrypto.getRandomValues == 'function' && msCrypto.getRandomValues.bind(msCrypto);
+
+if (getRandomValues) {
+  // WHATWG crypto RNG - http://wiki.whatwg.org/wiki/Crypto
+  var rnds8 = new Uint8Array(16); // eslint-disable-line no-undef
+
+  module.exports = function whatwgRNG() {
+    getRandomValues(rnds8);
+    return rnds8;
+  };
+} else {
+  // Math.random()-based (RNG)
+  //
+  // If all else fails, use Math.random().  It's fast, but is of unspecified
+  // quality.
+  var rnds = new Array(16);
+
+  module.exports = function mathRNG() {
+    for (var i = 0, r; i < 16; i++) {
+      if ((i & 0x03) === 0) r = Math.random() * 0x100000000;
+      rnds[i] = r >>> ((i & 0x03) << 3) & 0xff;
+    }
+
+    return rnds;
+  };
+}
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(getRandomValues, 'getRandomValues', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/lib/rng-browser.js');
+
+  __REACT_HOT_LOADER__.register(rnds8, 'rnds8', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/lib/rng-browser.js');
+
+  __REACT_HOT_LOADER__.register(rnds, 'rnds', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/lib/rng-browser.js');
+}();
+
+;
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports) {
+
+/**
+ * Convert array of 16 byte values to UUID string format of the form:
+ * XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+ */
+var byteToHex = [];
+for (var i = 0; i < 256; ++i) {
+  byteToHex[i] = (i + 0x100).toString(16).substr(1);
+}
+
+function bytesToUuid(buf, offset) {
+  var i = offset || 0;
+  var bth = byteToHex;
+  // join used to fix memory issue caused by concatenation: https://bugs.chromium.org/p/v8/issues/detail?id=3175#c4
+  return [bth[buf[i++]], bth[buf[i++]], bth[buf[i++]], bth[buf[i++]], '-', bth[buf[i++]], bth[buf[i++]], '-', bth[buf[i++]], bth[buf[i++]], '-', bth[buf[i++]], bth[buf[i++]], '-', bth[buf[i++]], bth[buf[i++]], bth[buf[i++]], bth[buf[i++]], bth[buf[i++]], bth[buf[i++]]].join('');
+}
+
+module.exports = bytesToUuid;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(byteToHex, 'byteToHex', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/lib/bytesToUuid.js');
+
+  __REACT_HOT_LOADER__.register(i, 'i', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/lib/bytesToUuid.js');
+
+  __REACT_HOT_LOADER__.register(bytesToUuid, 'bytesToUuid', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/lib/bytesToUuid.js');
+}();
+
+;
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(41);
+
 
 /***/ }),
 /* 41 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(42);
-
-
-/***/ }),
-/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_hot_loader__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_hot_loader__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_hot_loader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_hot_loader__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__App__ = __webpack_require__(56);
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__App__ = __webpack_require__(59);
 
 
 
@@ -5832,97 +5603,22 @@ if (false) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(render, 'render', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(render, 'render', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)(module)))
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-function _interopDefault(e) {
-  return e && "object" == (typeof e === "undefined" ? "undefined" : _typeof(e)) && "default" in e ? e.default : e;
-}Object.defineProperty(exports, "__esModule", { value: !0 });var React = _interopDefault(__webpack_require__(4)),
-    classCallCheck = function classCallCheck(e, t) {
-  if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function");
-},
-    inherits = function inherits(e, t) {
-  if ("function" != typeof t && null !== t) throw new TypeError("Super expression must either be null or a function, not " + (typeof t === "undefined" ? "undefined" : _typeof(t)));e.prototype = Object.create(t && t.prototype, { constructor: { value: e, enumerable: !1, writable: !0, configurable: !0 } }), t && (Object.setPrototypeOf ? Object.setPrototypeOf(e, t) : e.__proto__ = t);
-},
-    possibleConstructorReturn = function possibleConstructorReturn(e, t) {
-  if (!e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return !t || "object" != (typeof t === "undefined" ? "undefined" : _typeof(t)) && "function" != typeof t ? e : t;
-},
-    AppContainer = function (e) {
-  function t() {
-    return classCallCheck(this, t), possibleConstructorReturn(this, e.apply(this, arguments));
-  }return inherits(t, e), t.prototype.render = function () {
-    return React.Children.only(this.props.children);
-  }, t;
-}(React.Component),
-    hot_prod = function hot_prod() {
-  return function (e) {
-    return e;
-  };
-},
-    areComponentsEqual = function areComponentsEqual(e, t) {
-  return e === t;
-},
-    setConfig = function setConfig() {};exports.AppContainer = AppContainer, exports.hot = hot_prod, exports.areComponentsEqual = areComponentsEqual, exports.setConfig = setConfig;
-;
-
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
-    return;
-  }
-
-  reactHotLoader.register(_interopDefault, "_interopDefault", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  reactHotLoader.register(React, "React", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  reactHotLoader.register(classCallCheck, "classCallCheck", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  reactHotLoader.register(inherits, "inherits", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  reactHotLoader.register(possibleConstructorReturn, "possibleConstructorReturn", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  reactHotLoader.register(AppContainer, "AppContainer", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  reactHotLoader.register(hot_prod, "hot_prod", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  reactHotLoader.register(areComponentsEqual, "areComponentsEqual", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  reactHotLoader.register(setConfig, "setConfig", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/dist/react-hot-loader.production.min.js");
-  leaveModule(module);
-})();
-
-;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/** @license React v16.4.0
+/** @license React v16.4.0
  * react.production.min.js
  *
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -5935,16 +5631,10 @@ function _interopDefault(e) {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-var k = __webpack_require__(12),
-    n = __webpack_require__(8),
-    p = __webpack_require__(13),
-    q = __webpack_require__(9),
+var k = __webpack_require__(9),
+    n = __webpack_require__(5),
+    p = __webpack_require__(10),
+    q = __webpack_require__(6),
     r = "function" === typeof Symbol && Symbol.for,
     t = r ? Symbol.for("react.element") : 60103,
     u = r ? Symbol.for("react.portal") : 60106,
@@ -6060,58 +5750,86 @@ var X = { Children: { map: function map(a, b, e) {
     Z = Y && X || Y;module.exports = Z.default ? Z.default : Z;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(r, "r", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(t, "t", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(u, "u", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(v, "v", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(w, "w", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(x, "x", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(y, "y", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(z, "z", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(A, "A", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(B, "B", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(C, "C", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(D, "D", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(E, "E", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(F, "F", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(G, "G", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(H, "H", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(I, "I", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(J, "J", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(K, "K", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(L, "L", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(M, "M", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(N, "N", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(escape, "escape", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(O, "O", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(P, "P", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(Q, "Q", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(R, "R", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(S, "S", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(T, "T", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(U, "U", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(V, "V", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(W, "W", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(X, "X", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(Y, "Y", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  reactHotLoader.register(Z, "Z", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(r, "r", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(t, "t", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(u, "u", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(v, "v", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(w, "w", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(x, "x", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(y, "y", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(z, "z", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(A, "A", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(B, "B", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(C, "C", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(D, "D", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(E, "E", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(F, "F", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(G, "G", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(H, "H", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(I, "I", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(J, "J", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(K, "K", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(L, "L", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(M, "M", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(N, "N", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(escape, "escape", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(O, "O", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(P, "P", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Q, "Q", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(R, "R", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(S, "S", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(T, "T", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(U, "U", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(V, "V", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(W, "W", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(X, "X", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Y, "Y", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Z, "Z", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react/cjs/react.production.min.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 45 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6132,12 +5850,12 @@ if (process.env.NODE_ENV !== "production") {
   (function () {
     'use strict';
 
-    var _assign = __webpack_require__(12);
-    var invariant = __webpack_require__(8);
-    var emptyObject = __webpack_require__(13);
-    var warning = __webpack_require__(18);
-    var emptyFunction = __webpack_require__(9);
-    var checkPropTypes = __webpack_require__(24);
+    var _assign = __webpack_require__(9);
+    var invariant = __webpack_require__(5);
+    var emptyObject = __webpack_require__(10);
+    var warning = __webpack_require__(15);
+    var emptyFunction = __webpack_require__(6);
+    var checkPropTypes = __webpack_require__(21);
 
     // TODO: this is special because it gets imported during build.
 
@@ -7585,14 +7303,23 @@ if (process.env.NODE_ENV !== "production") {
     module.exports = react;
   })();
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 46 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/**
+/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -7601,45 +7328,27 @@ if (process.env.NODE_ENV !== "production") {
 
 
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(ReactPropTypesSecret, 'ReactPropTypesSecret', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/prop-types/lib/ReactPropTypesSecret.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(ReactPropTypesSecret, 'ReactPropTypesSecret', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/prop-types/lib/ReactPropTypesSecret.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 47 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module, process) {
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* WEBPACK VAR INJECTION */(function(process) {
 
 function checkDCE() {
   /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */
@@ -7670,34 +7379,29 @@ if (process.env.NODE_ENV === 'production') {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(48);
+  module.exports = __webpack_require__(46);
 } else {
-  module.exports = __webpack_require__(51);
+  module.exports = __webpack_require__(49);
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(checkDCE, 'checkDCE', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(checkDCE, 'checkDCE', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 48 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/** @license React v16.4.0
+/** @license React v16.4.0
  * react-dom.production.min.js
  *
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -7713,21 +7417,15 @@ if (process.env.NODE_ENV === 'production') {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-var aa = __webpack_require__(8),
-    ca = __webpack_require__(4),
-    m = __webpack_require__(25),
-    p = __webpack_require__(12),
-    v = __webpack_require__(9),
-    da = __webpack_require__(26),
-    ea = __webpack_require__(27),
-    fa = __webpack_require__(28),
-    ha = __webpack_require__(13);
+var aa = __webpack_require__(5),
+    ca = __webpack_require__(2),
+    m = __webpack_require__(22),
+    p = __webpack_require__(9),
+    v = __webpack_require__(6),
+    da = __webpack_require__(23),
+    ea = __webpack_require__(24),
+    fa = __webpack_require__(25),
+    ha = __webpack_require__(10);
 function A(a) {
   for (var b = arguments.length - 1, c = "https://reactjs.org/docs/error-decoder.html?invariant=" + a, d = 0; d < b; d++) {
     c += "&args[]=" + encodeURIComponent(arguments[d + 1]);
@@ -9773,473 +9471,912 @@ var vi = { default: qi },
     wi = vi && qi || vi;module.exports = wi.default ? wi.default : wi;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(A, "A", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ia, "ia", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(B, "B", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ka, "ka", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(la, "la", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ma, "ma", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(na, "na", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(qa, "qa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(oa, "oa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(pa, "pa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ra, "ra", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(sa, "sa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ta, "ta", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ua, "ua", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(va, "va", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(wa, "wa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(xa, "xa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ya, "ya", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(za, "za", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Aa, "Aa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ba, "Ba", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ca, "Ca", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Da, "Da", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ea, "Ea", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Fa, "Fa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ga, "Ga", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ha, "Ha", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ia, "Ia", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ja, "Ja", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ka, "Ka", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(La, "La", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(C, "C", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ma, "Ma", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Na, "Na", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Oa, "Oa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Pa, "Pa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Qa, "Qa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(F, "F", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ra, "Ra", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Sa, "Sa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ta, "Ta", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ua, "Ua", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Va, "Va", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Xa, "Xa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ya, "Ya", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Za, "Za", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register($a, "$a", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ab, "ab", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(bb, "bb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(cb, "cb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(db, "db", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(eb, "eb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(fb, "fb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(gb, "gb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(hb, "hb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ib, "ib", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(jb, "jb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(kb, "kb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(lb, "lb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(G, "G", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(mb, "mb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(nb, "nb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ob, "ob", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(pb, "pb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(H, "H", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(rb, "rb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(sb, "sb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(qb, "qb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(tb, "tb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ub, "ub", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(vb, "vb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(wb, "wb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(xb, "xb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(yb, "yb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(zb, "zb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ab, "Ab", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Bb, "Bb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Cb, "Cb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Db, "Db", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Eb, "Eb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Fb, "Fb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Gb, "Gb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Hb, "Hb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ib, "Ib", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Jb, "Jb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Kb, "Kb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Lb, "Lb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Mb, "Mb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Nb, "Nb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ob, "Ob", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Pb, "Pb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Qb, "Qb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Rb, "Rb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Sb, "Sb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Tb, "Tb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ub, "Ub", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Vb, "Vb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Wb, "Wb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Xb, "Xb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Yb, "Yb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Zb, "Zb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register($b, "$b", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ac, "ac", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(bc, "bc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(cc, "cc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(dc, "dc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ec, "ec", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(I, "I", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(fc, "fc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(gc, "gc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(hc, "hc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ic, "ic", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(jc, "jc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(mc, "mc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(nc, "nc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(oc, "oc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(pc, "pc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(qc, "qc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(rc, "rc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(sc, "sc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(tc, "tc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(vc, "vc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(wc, "wc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(xc, "xc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(yc, "yc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(zc, "zc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ac, "Ac", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Bc, "Bc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(J, "J", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(K, "K", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Cc, "Cc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Dc, "Dc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ec, "Ec", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Fc, "Fc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Gc, "Gc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ic, "Ic", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Jc, "Jc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Lc, "Lc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Kc, "Kc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Hc, "Hc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Mc, "Mc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Nc, "Nc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Oc, "Oc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Pc, "Pc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Qc, "Qc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Rc, "Rc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Sc, "Sc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Tc, "Tc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Uc, "Uc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Vc, "Vc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Wc, "Wc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Xc, "Xc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Yc, "Yc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Zc, "Zc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register($c, "$c", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ad, "ad", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(bd, "bd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(cd, "cd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(dd, "dd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ed, "ed", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(fd, "fd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(gd, "gd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(hd, "hd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(id, "id", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(jd, "jd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(kd, "kd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ld, "ld", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(md, "md", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(nd, "nd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(od, "od", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(pd, "pd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(qd, "qd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(rd, "rd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(sd, "sd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(td, "td", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ud, "ud", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(vd, "vd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(wd, "wd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(xd, "xd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(yd, "yd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(zd, "zd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ad, "Ad", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Bd, "Bd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Cd, "Cd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Dd, "Dd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ed, "Ed", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Fd, "Fd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Gd, "Gd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Id, "Id", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(L, "L", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ld, "Ld", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Jd, "Jd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Kd, "Kd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Md, "Md", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Nd, "Nd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Od, "Od", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Pd, "Pd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Qd, "Qd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Rd, "Rd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Sd, "Sd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Td, "Td", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ud, "Ud", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Vd, "Vd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Wd, "Wd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Xd, "Xd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Yd, "Yd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Zd, "Zd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register($d, "$d", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ae, "ae", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(be, "be", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ce, "ce", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(de, "de", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ee, "ee", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(fe, "fe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ge, "ge", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(he, "he", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ie, "ie", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(je, "je", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ke, "ke", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(le, "le", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(me, "me", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ne, "ne", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(oe, "oe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(pe, "pe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(qe, "qe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(re, "re", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(se, "se", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(te, "te", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ue, "ue", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ve, "ve", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(we, "we", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(xe, "xe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ye, "ye", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ze, "ze", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ae, "Ae", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Be, "Be", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ce, "Ce", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(De, "De", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ee, "Ee", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Fe, "Fe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ge, "Ge", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(He, "He", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ie, "Ie", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Je, "Je", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ke, "Ke", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Le, "Le", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Me, "Me", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ne, "Ne", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Oe, "Oe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Pe, "Pe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Qe, "Qe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Re, "Re", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Se, "Se", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Te, "Te", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ue, "Ue", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ve, "Ve", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(We, "We", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Xe, "Xe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ye, "Ye", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ze, "Ze", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register($e, "$e", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(af, "af", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(bf, "bf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(cf, "cf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(df, "df", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ef, "ef", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ff, "ff", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(gf, "gf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(hf, "hf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(M, "M", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(N, "N", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(jf, "jf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(O, "O", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(kf, "kf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(lf, "lf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(nf, "nf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(mf, "mf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(of, "of", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(pf, "pf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(qf, "qf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(rf, "rf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(sf, "sf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(tf, "tf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(uf, "uf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(vf, "vf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(wf, "wf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(xf, "xf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(yf, "yf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(zf, "zf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Af, "Af", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Bf, "Bf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Cf, "Cf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Df, "Df", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ef, "Ef", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ff, "Ff", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Gf, "Gf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Hf, "Hf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(If, "If", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Jf, "Jf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Kf, "Kf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Lf, "Lf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Mf, "Mf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Nf, "Nf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Of, "Of", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Pf, "Pf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Qf, "Qf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Rf, "Rf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Sf, "Sf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Tf, "Tf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Uf, "Uf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Vf, "Vf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Wf, "Wf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Xf, "Xf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Yf, "Yf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Zf, "Zf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register($f, "$f", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ag, "ag", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(bg, "bg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(cg, "cg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(dg, "dg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(eg, "eg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(fg, "fg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(hg, "hg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(lg, "lg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(mg, "mg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ng, "ng", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(og, "og", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(pg, "pg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(qg, "qg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(rg, "rg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(sg, "sg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(tg, "tg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ug, "ug", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(vg, "vg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(wg, "wg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(xg, "xg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(yg, "yg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(zg, "zg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ag, "Ag", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Bg, "Bg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Cg, "Cg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Dg, "Dg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Q, "Q", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Eg, "Eg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Fg, "Fg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Gg, "Gg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Hg, "Hg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ig, "Ig", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Jg, "Jg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(R, "R", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Kg, "Kg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Lg, "Lg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Pg, "Pg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Qg, "Qg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Rg, "Rg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Sg, "Sg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Tg, "Tg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ug, "Ug", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Wg, "Wg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Yg, "Yg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Zg, "Zg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Xg, "Xg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register($g, "$g", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ah, "ah", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ch, "ch", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(eh, "eh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(fh, "fh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(gh, "gh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(hh, "hh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ih, "ih", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(jh, "jh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(kh, "kh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(lh, "lh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(S, "S", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(mh, "mh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(T, "T", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(nh, "nh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(oh, "oh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(U, "U", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ph, "ph", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(qh, "qh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(dh, "dh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(rh, "rh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(sh, "sh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(th, "th", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(uh, "uh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Vg, "Vg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(yh, "yh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(jg, "jg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(kg, "kg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ig, "ig", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Dh, "Dh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Eh, "Eh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Fh, "Fh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(V, "V", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Gh, "Gh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Hh, "Hh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(W, "W", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(X, "X", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Y, "Y", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ah, "Ah", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ih, "Ih", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Jh, "Jh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Kh, "Kh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Lh, "Lh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Z, "Z", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Mh, "Mh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(zh, "zh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Nh, "Nh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ch, "Ch", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Bh, "Bh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Oh, "Oh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Ph, "Ph", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(wh, "wh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Th, "Th", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Qh, "Qh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Sh, "Sh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Uh, "Uh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Wh, "Wh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Vh, "Vh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Rh, "Rh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Xh, "Xh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(vh, "vh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(bh, "bh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(xh, "xh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Yh, "Yh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(Zh, "Zh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register($h, "$h", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ai, "ai", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(bi, "bi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ci, "ci", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(di, "di", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ei, "ei", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(fi, "fi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(gi, "gi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ii, "ii", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ji, "ji", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ki, "ki", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(li, "li", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(mi, "mi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(ni, "ni", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(oi, "oi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(pi, "pi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(qi, "qi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(vi, "vi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  reactHotLoader.register(wi, "wi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(A, "A", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ia, "ia", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(B, "B", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ka, "ka", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(la, "la", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ma, "ma", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(na, "na", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(qa, "qa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(oa, "oa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(pa, "pa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ra, "ra", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(sa, "sa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ta, "ta", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ua, "ua", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(va, "va", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(wa, "wa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(xa, "xa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ya, "ya", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(za, "za", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Aa, "Aa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ba, "Ba", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ca, "Ca", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Da, "Da", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ea, "Ea", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Fa, "Fa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ga, "Ga", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ha, "Ha", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ia, "Ia", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ja, "Ja", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ka, "Ka", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(La, "La", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(C, "C", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ma, "Ma", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Na, "Na", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Oa, "Oa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Pa, "Pa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Qa, "Qa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(F, "F", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ra, "Ra", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Sa, "Sa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ta, "Ta", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ua, "Ua", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Va, "Va", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Xa, "Xa", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ya, "Ya", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Za, "Za", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register($a, "$a", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ab, "ab", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(bb, "bb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(cb, "cb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(db, "db", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(eb, "eb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(fb, "fb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(gb, "gb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(hb, "hb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ib, "ib", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(jb, "jb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(kb, "kb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(lb, "lb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(G, "G", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(mb, "mb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(nb, "nb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ob, "ob", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(pb, "pb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(H, "H", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(rb, "rb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(sb, "sb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(qb, "qb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(tb, "tb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ub, "ub", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(vb, "vb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(wb, "wb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(xb, "xb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(yb, "yb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(zb, "zb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ab, "Ab", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Bb, "Bb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Cb, "Cb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Db, "Db", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Eb, "Eb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Fb, "Fb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Gb, "Gb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Hb, "Hb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ib, "Ib", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Jb, "Jb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Kb, "Kb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Lb, "Lb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Mb, "Mb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Nb, "Nb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ob, "Ob", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Pb, "Pb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Qb, "Qb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Rb, "Rb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Sb, "Sb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Tb, "Tb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ub, "Ub", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Vb, "Vb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Wb, "Wb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Xb, "Xb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Yb, "Yb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Zb, "Zb", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register($b, "$b", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ac, "ac", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(bc, "bc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(cc, "cc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(dc, "dc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ec, "ec", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(I, "I", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(fc, "fc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(gc, "gc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(hc, "hc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ic, "ic", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(jc, "jc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(mc, "mc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(nc, "nc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(oc, "oc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(pc, "pc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(qc, "qc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(rc, "rc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(sc, "sc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(tc, "tc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(vc, "vc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(wc, "wc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(xc, "xc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(yc, "yc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(zc, "zc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ac, "Ac", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Bc, "Bc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(J, "J", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(K, "K", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Cc, "Cc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Dc, "Dc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ec, "Ec", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Fc, "Fc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Gc, "Gc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ic, "Ic", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Jc, "Jc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Lc, "Lc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Kc, "Kc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Hc, "Hc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Mc, "Mc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Nc, "Nc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Oc, "Oc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Pc, "Pc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Qc, "Qc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Rc, "Rc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Sc, "Sc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Tc, "Tc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Uc, "Uc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Vc, "Vc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Wc, "Wc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Xc, "Xc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Yc, "Yc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Zc, "Zc", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register($c, "$c", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ad, "ad", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(bd, "bd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(cd, "cd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(dd, "dd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ed, "ed", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(fd, "fd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(gd, "gd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(hd, "hd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(id, "id", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(jd, "jd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(kd, "kd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ld, "ld", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(md, "md", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(nd, "nd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(od, "od", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(pd, "pd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(qd, "qd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(rd, "rd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(sd, "sd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(td, "td", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ud, "ud", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(vd, "vd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(wd, "wd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(xd, "xd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(yd, "yd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(zd, "zd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ad, "Ad", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Bd, "Bd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Cd, "Cd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Dd, "Dd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ed, "Ed", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Fd, "Fd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Gd, "Gd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Id, "Id", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(L, "L", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ld, "Ld", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Jd, "Jd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Kd, "Kd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Md, "Md", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Nd, "Nd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Od, "Od", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Pd, "Pd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Qd, "Qd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Rd, "Rd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Sd, "Sd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Td, "Td", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ud, "Ud", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Vd, "Vd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Wd, "Wd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Xd, "Xd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Yd, "Yd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Zd, "Zd", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register($d, "$d", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ae, "ae", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(be, "be", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ce, "ce", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(de, "de", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ee, "ee", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(fe, "fe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ge, "ge", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(he, "he", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ie, "ie", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(je, "je", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ke, "ke", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(le, "le", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(me, "me", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ne, "ne", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(oe, "oe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(pe, "pe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(qe, "qe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(re, "re", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(se, "se", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(te, "te", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ue, "ue", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ve, "ve", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(we, "we", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(xe, "xe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ye, "ye", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ze, "ze", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ae, "Ae", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Be, "Be", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ce, "Ce", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(De, "De", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ee, "Ee", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Fe, "Fe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ge, "Ge", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(He, "He", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ie, "Ie", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Je, "Je", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ke, "Ke", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Le, "Le", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Me, "Me", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ne, "Ne", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Oe, "Oe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Pe, "Pe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Qe, "Qe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Re, "Re", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Se, "Se", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Te, "Te", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ue, "Ue", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ve, "Ve", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(We, "We", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Xe, "Xe", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ye, "Ye", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ze, "Ze", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register($e, "$e", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(af, "af", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(bf, "bf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(cf, "cf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(df, "df", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ef, "ef", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ff, "ff", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(gf, "gf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(hf, "hf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(M, "M", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(N, "N", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(jf, "jf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(O, "O", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(kf, "kf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(lf, "lf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(nf, "nf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(mf, "mf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(of, "of", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(pf, "pf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(qf, "qf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(rf, "rf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(sf, "sf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(tf, "tf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(uf, "uf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(vf, "vf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(wf, "wf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(xf, "xf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(yf, "yf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(zf, "zf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Af, "Af", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Bf, "Bf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Cf, "Cf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Df, "Df", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ef, "Ef", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ff, "Ff", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Gf, "Gf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Hf, "Hf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(If, "If", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Jf, "Jf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Kf, "Kf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Lf, "Lf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Mf, "Mf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Nf, "Nf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Of, "Of", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Pf, "Pf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Qf, "Qf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Rf, "Rf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Sf, "Sf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Tf, "Tf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Uf, "Uf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Vf, "Vf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Wf, "Wf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Xf, "Xf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Yf, "Yf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Zf, "Zf", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register($f, "$f", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ag, "ag", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(bg, "bg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(cg, "cg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(dg, "dg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(eg, "eg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(fg, "fg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(hg, "hg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(lg, "lg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(mg, "mg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ng, "ng", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(og, "og", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(pg, "pg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(qg, "qg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(rg, "rg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(sg, "sg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(tg, "tg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ug, "ug", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(vg, "vg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(wg, "wg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(xg, "xg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(yg, "yg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(zg, "zg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ag, "Ag", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Bg, "Bg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Cg, "Cg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Dg, "Dg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Q, "Q", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Eg, "Eg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Fg, "Fg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Gg, "Gg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Hg, "Hg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ig, "Ig", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Jg, "Jg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(R, "R", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Kg, "Kg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Lg, "Lg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Pg, "Pg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Qg, "Qg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Rg, "Rg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Sg, "Sg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Tg, "Tg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ug, "Ug", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Wg, "Wg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Yg, "Yg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Zg, "Zg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Xg, "Xg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register($g, "$g", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ah, "ah", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ch, "ch", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(eh, "eh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(fh, "fh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(gh, "gh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(hh, "hh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ih, "ih", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(jh, "jh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(kh, "kh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(lh, "lh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(S, "S", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(mh, "mh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(T, "T", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(nh, "nh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(oh, "oh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(U, "U", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ph, "ph", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(qh, "qh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(dh, "dh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(rh, "rh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(sh, "sh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(th, "th", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(uh, "uh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Vg, "Vg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(yh, "yh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(jg, "jg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(kg, "kg", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ig, "ig", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Dh, "Dh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Eh, "Eh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Fh, "Fh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(V, "V", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Gh, "Gh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Hh, "Hh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(W, "W", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(X, "X", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Y, "Y", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ah, "Ah", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ih, "Ih", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Jh, "Jh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Kh, "Kh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Lh, "Lh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Z, "Z", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Mh, "Mh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(zh, "zh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Nh, "Nh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ch, "Ch", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Bh, "Bh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Oh, "Oh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Ph, "Ph", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(wh, "wh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Th, "Th", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Qh, "Qh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Sh, "Sh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Uh, "Uh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Wh, "Wh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Vh, "Vh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Rh, "Rh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Xh, "Xh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(vh, "vh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(bh, "bh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(xh, "xh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Yh, "Yh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(Zh, "Zh", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register($h, "$h", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ai, "ai", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(bi, "bi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ci, "ci", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(di, "di", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ei, "ei", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(fi, "fi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(gi, "gi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ii, "ii", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ji, "ji", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ki, "ki", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(li, "li", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(mi, "mi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(ni, "ni", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(oi, "oi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(pi, "pi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(qi, "qi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(vi, "vi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+
+  __REACT_HOT_LOADER__.register(wi, "wi", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-dom/cjs/react-dom.production.min.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 49 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
+
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -10250,13 +10387,7 @@ var vi = { default: qi },
  * @typechecks
  */
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-var isNode = __webpack_require__(50);
+var isNode = __webpack_require__(48);
 
 /**
  * @param {*} object The object to check.
@@ -10269,28 +10400,22 @@ function isTextNode(object) {
 module.exports = isTextNode;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(isTextNode, 'isTextNode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/isTextNode.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(isTextNode, 'isTextNode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/isTextNode.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 50 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
+
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -10308,12 +10433,6 @@ module.exports = isTextNode;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
 function isNode(object) {
   var doc = object ? object.ownerDocument || object : document;
   var defaultView = doc.defaultView || window;
@@ -10323,24 +10442,18 @@ function isNode(object) {
 module.exports = isNode;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(isNode, 'isNode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/isNode.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(isNode, 'isNode', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/isNode.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 51 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10351,7 +10464,7 @@ module.exports = isNode;
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};if(process.env.NODE_ENV!=="production"){(function(){'use strict';var invariant=__webpack_require__(8);var React=__webpack_require__(4);var warning=__webpack_require__(18);var ExecutionEnvironment=__webpack_require__(25);var _assign=__webpack_require__(12);var emptyFunction=__webpack_require__(9);var checkPropTypes=__webpack_require__(24);var getActiveElement=__webpack_require__(26);var shallowEqual=__webpack_require__(27);var containsNode=__webpack_require__(28);var emptyObject=__webpack_require__(13);var hyphenateStyleName=__webpack_require__(52);var camelizeStyleName=__webpack_require__(54);// Relying on the `invariant()` implementation lets us
+ */var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};if(process.env.NODE_ENV!=="production"){(function(){'use strict';var invariant=__webpack_require__(5);var React=__webpack_require__(2);var warning=__webpack_require__(15);var ExecutionEnvironment=__webpack_require__(22);var _assign=__webpack_require__(9);var emptyFunction=__webpack_require__(6);var checkPropTypes=__webpack_require__(21);var getActiveElement=__webpack_require__(23);var shallowEqual=__webpack_require__(24);var containsNode=__webpack_require__(25);var emptyObject=__webpack_require__(10);var hyphenateStyleName=__webpack_require__(50);var camelizeStyleName=__webpack_require__(52);// Relying on the `invariant()` implementation lets us
 // have preserve the format and params in the www builds.
 !React?invariant(false,'ReactDOM was loaded before React. Make sure you load the React package before loading ReactDOM.'):void 0;var invokeGuardedCallback=function invokeGuardedCallback(name,func,context,a,b,c,d,e,f){this._hasCaughtError=false;this._caughtError=null;var funcArgs=Array.prototype.slice.call(arguments,3);try{func.apply(context,funcArgs);}catch(error){this._caughtError=error;this._hasCaughtError=true;}};{// In DEV mode, we swap out invokeGuardedCallback for a special version
 // that plays more nicely with the browser's DevTools. The idea is to preserve
@@ -13461,15 +13574,15 @@ EventPluginRegistry:EventPluginRegistry,EventPropagators:EventPropagators,ReactC
 if(navigator.userAgent.indexOf('Chrome')>-1&&navigator.userAgent.indexOf('Edge')===-1||navigator.userAgent.indexOf('Firefox')>-1){var protocol=window.location.protocol;// Don't warn in exotic cases like chrome-extension://.
 if(/^(https?|file):$/.test(protocol)){console.info('%cDownload the React DevTools '+'for a better development experience: '+'https://fb.me/react-devtools'+(protocol==='file:'?'\nYou might need to use a local HTTP server (instead of file://): '+'https://fb.me/react-devtools-faq':''),'font-weight:bold');}}}}var ReactDOM$2=Object.freeze({default:ReactDOM});var ReactDOM$3=ReactDOM$2&&ReactDOM||ReactDOM$2;// TODO: decide on the top-level export form.
 // This is hacky but makes it work with both Rollup and Jest.
-var reactDom=ReactDOM$3.default?ReactDOM$3.default:ReactDOM$3;module.exports=reactDom;})();}
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+var reactDom=ReactDOM$3.default?ReactDOM$3.default:ReactDOM$3;module.exports=reactDom;})();};var _temp=function(){if(typeof __REACT_HOT_LOADER__==='undefined'){return;}}();;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 52 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/**
+/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -13480,13 +13593,7 @@ var reactDom=ReactDOM$3.default?ReactDOM$3.default:ReactDOM$3;module.exports=rea
 
 
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-var hyphenate = __webpack_require__(53);
+var hyphenate = __webpack_require__(51);
 
 var msPattern = /^ms-/;
 
@@ -13513,29 +13620,24 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(msPattern, 'msPattern', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/hyphenateStyleName.js');
-  reactHotLoader.register(hyphenateStyleName, 'hyphenateStyleName', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/hyphenateStyleName.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(msPattern, 'msPattern', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/hyphenateStyleName.js');
+
+  __REACT_HOT_LOADER__.register(hyphenateStyleName, 'hyphenateStyleName', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/hyphenateStyleName.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 53 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
+
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -13545,12 +13647,6 @@ module.exports = hyphenateStyleName;
  *
  * @typechecks
  */
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 var _uppercasePattern = /([A-Z])/g;
 
@@ -13573,29 +13669,24 @@ function hyphenate(string) {
 module.exports = hyphenate;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(_uppercasePattern, '_uppercasePattern', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/hyphenate.js');
-  reactHotLoader.register(hyphenate, 'hyphenate', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/hyphenate.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(_uppercasePattern, '_uppercasePattern', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/hyphenate.js');
+
+  __REACT_HOT_LOADER__.register(hyphenate, 'hyphenate', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/hyphenate.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 54 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/**
+/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -13606,13 +13697,7 @@ module.exports = hyphenate;
 
 
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-var camelize = __webpack_require__(55);
+var camelize = __webpack_require__(53);
 
 var msPattern = /^-ms-/;
 
@@ -13640,29 +13725,24 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(msPattern, 'msPattern', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/camelizeStyleName.js');
-  reactHotLoader.register(camelizeStyleName, 'camelizeStyleName', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/camelizeStyleName.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(msPattern, 'msPattern', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/camelizeStyleName.js');
+
+  __REACT_HOT_LOADER__.register(camelizeStyleName, 'camelizeStyleName', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/camelizeStyleName.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 55 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
+
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -13672,12 +13752,6 @@ module.exports = camelizeStyleName;
  *
  * @typechecks
  */
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 var _hyphenPattern = /-(.)/g;
 
@@ -13699,45 +13773,206 @@ function camelize(string) {
 module.exports = camelize;
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(_hyphenPattern, "_hyphenPattern", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/camelize.js");
-  reactHotLoader.register(camelize, "camelize", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/camelize.js");
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(_hyphenPattern, "_hyphenPattern", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/camelize.js");
+
+  __REACT_HOT_LOADER__.register(camelize, "camelize", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/fbjs/lib/camelize.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(55);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ }),
+/* 55 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/* eslint-disable global-require */
+
+if (true) {
+  module.exports = __webpack_require__(56);
+} else {
+  module.exports = require('./index.dev');
+}
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 56 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports.AppContainer = __webpack_require__(57);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/* eslint-disable global-require */
+
+if (true) {
+  module.exports = __webpack_require__(58);
+} else {
+  module.exports = require('./AppContainer.dev');
+}
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var _createClass = function () {
+  function defineProperties(target, props) {
+    for (var i = 0; i < props.length; i++) {
+      var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);
+    }
+  }return function (Constructor, protoProps, staticProps) {
+    if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
+  };
+}();
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }return call && ((typeof call === "undefined" ? "undefined" : _typeof(call)) === "object" || typeof call === "function") ? call : self;
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : _typeof(superClass)));
+  }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+}
+
+/* eslint-disable react/prop-types */
+
+var React = __webpack_require__(2);
+
+var Component = React.Component;
+
+var AppContainer = function (_Component) {
+  _inherits(AppContainer, _Component);
+
+  function AppContainer() {
+    _classCallCheck(this, AppContainer);
+
+    return _possibleConstructorReturn(this, (AppContainer.__proto__ || Object.getPrototypeOf(AppContainer)).apply(this, arguments));
+  }
+
+  _createClass(AppContainer, [{
+    key: 'render',
+    value: function render() {
+      if (this.props.component) {
+        return React.createElement(this.props.component, this.props.props);
+      }
+
+      return React.Children.only(this.props.children);
+    }
+  }]);
+
+  return AppContainer;
+}(Component);
+
+module.exports = AppContainer;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/lib/AppContainer.prod.js");
+
+  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/lib/AppContainer.prod.js");
+
+  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/lib/AppContainer.prod.js");
+
+  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/lib/AppContainer.prod.js");
+
+  __REACT_HOT_LOADER__.register(Component, "Component", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/lib/AppContainer.prod.js");
+
+  __REACT_HOT_LOADER__.register(AppContainer, "AppContainer", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/react-hot-loader/lib/AppContainer.prod.js");
+}();
+
+;
+
+/***/ }),
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_socket_io_client__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_socket_io_client__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_socket_io_client___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_socket_io_client__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_App_css__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_App_css__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_App_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__styles_App_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MessageList__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MessageForm__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__UserList__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__UserForm__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MessageList__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MessageForm__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__UserList__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__UserForm__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_uuid__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_uuid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_uuid__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
@@ -13746,6 +13981,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -13767,7 +14003,12 @@ var App = function (_Component) {
 
     var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
 
-    _this.state = { users: [], messages: [], text: '', name: '' };
+    _this.state = {
+      users: [],
+      messages: [],
+      text: '',
+      name: ''
+    };
     return _this;
   }
 
@@ -13864,13 +14105,6 @@ var App = function (_Component) {
           return _this4.handleUserSubmit(name);
         } });
     }
-  }, {
-    key: '__reactstandin__regenerateByEval',
-    // @ts-ignore
-    value: function __reactstandin__regenerateByEval(key, code) {
-      // @ts-ignore
-      this[key] = eval(code);
-    }
   }]);
 
   return App;
@@ -13882,44 +14116,34 @@ var _default = App;
 /* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(socket, 'socket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/App.js');
-  reactHotLoader.register(App, 'App', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/App.js');
-  reactHotLoader.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/App.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(socket, 'socket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/App.js');
+
+  __REACT_HOT_LOADER__.register(App, 'App', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/App.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/App.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)(module)))
 
 /***/ }),
-/* 57 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /**
  * Module dependencies.
  */
 
-var url = __webpack_require__(58);
-var parser = __webpack_require__(20);
-var Manager = __webpack_require__(31);
-var debug = __webpack_require__(14)('socket.io-client');
+var url = __webpack_require__(61);
+var parser = __webpack_require__(17);
+var Manager = __webpack_require__(28);
+var debug = __webpack_require__(11)('socket.io-client');
 
 /**
  * Module exports.
@@ -14002,44 +14226,35 @@ exports.connect = lookup;
  * @api public
  */
 
-exports.Manager = __webpack_require__(31);
-exports.Socket = __webpack_require__(38);
+exports.Manager = __webpack_require__(28);
+exports.Socket = __webpack_require__(35);
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/index.js');
-  reactHotLoader.register(cache, 'cache', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/index.js');
-  reactHotLoader.register(lookup, 'lookup', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/index.js');
+
+  __REACT_HOT_LOADER__.register(cache, 'cache', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/index.js');
+
+  __REACT_HOT_LOADER__.register(lookup, 'lookup', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 58 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
+/* WEBPACK VAR INJECTION */(function(global) {
 /**
  * Module dependencies.
  */
 
-var parseuri = __webpack_require__(29);
-var debug = __webpack_require__(14)('socket.io-client:url');
+var parseuri = __webpack_require__(26);
+var debug = __webpack_require__(11)('socket.io-client:url');
 
 /**
  * Module exports.
@@ -14110,32 +14325,23 @@ function url(uri, loc) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/url.js');
-  reactHotLoader.register(url, 'url', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/url.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/url.js');
+
+  __REACT_HOT_LOADER__.register(url, 'url', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/lib/url.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 59 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 /**
  * This is the common logic for both the Node.js and web browser
@@ -14149,7 +14355,7 @@ exports.coerce = coerce;
 exports.disable = disable;
 exports.enable = enable;
 exports.enabled = enabled;
-exports.humanize = __webpack_require__(19);
+exports.humanize = __webpack_require__(16);
 
 /**
  * Active `debug` instances.
@@ -14364,39 +14570,33 @@ function coerce(val) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(selectColor, 'selectColor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(createDebug, 'createDebug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(destroy, 'destroy', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(enable, 'enable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(disable, 'disable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(enabled, 'enabled', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(coerce, 'coerce', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(selectColor, 'selectColor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(createDebug, 'createDebug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(destroy, 'destroy', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(enable, 'enable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(disable, 'disable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(enabled, 'enabled', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(coerce, 'coerce', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-client/node_modules/debug/src/debug.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 60 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, process) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* WEBPACK VAR INJECTION */(function(process) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /**
  * This is the web browser implementation of `debug()`.
@@ -14404,7 +14604,7 @@ function coerce(val) {
  * Expose `debug()` as the module.
  */
 
-exports = module.exports = __webpack_require__(61);
+exports = module.exports = __webpack_require__(64);
 exports.log = log;
 exports.formatArgs = formatArgs;
 exports.save = save;
@@ -14572,36 +14772,31 @@ function localstorage() {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(useColors, 'useColors', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
-  reactHotLoader.register(formatArgs, 'formatArgs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
-  reactHotLoader.register(log, 'log', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
-  reactHotLoader.register(save, 'save', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
-  reactHotLoader.register(load, 'load', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
-  reactHotLoader.register(localstorage, 'localstorage', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(useColors, 'useColors', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(formatArgs, 'formatArgs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(log, 'log', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(save, 'save', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(load, 'load', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
+
+  __REACT_HOT_LOADER__.register(localstorage, 'localstorage', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/browser.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 61 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 /**
  * This is the common logic for both the Node.js and web browser
@@ -14615,7 +14810,7 @@ exports.coerce = coerce;
 exports.disable = disable;
 exports.enable = enable;
 exports.enabled = enabled;
-exports.humanize = __webpack_require__(19);
+exports.humanize = __webpack_require__(16);
 
 /**
  * Active `debug` instances.
@@ -14830,39 +15025,33 @@ function coerce(val) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(selectColor, 'selectColor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
-  reactHotLoader.register(createDebug, 'createDebug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
-  reactHotLoader.register(destroy, 'destroy', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
-  reactHotLoader.register(enable, 'enable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
-  reactHotLoader.register(disable, 'disable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
-  reactHotLoader.register(enabled, 'enabled', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
-  reactHotLoader.register(coerce, 'coerce', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(selectColor, 'selectColor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(createDebug, 'createDebug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(destroy, 'destroy', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(enable, 'enable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(disable, 'disable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(enabled, 'enabled', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(coerce, 'coerce', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/node_modules/debug/src/debug.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 62 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* WEBPACK VAR INJECTION */(function(global) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /*global Blob,File*/
 
@@ -14870,8 +15059,8 @@ function coerce(val) {
  * Module requirements
  */
 
-var isArray = __webpack_require__(21);
-var isBuf = __webpack_require__(30);
+var isArray = __webpack_require__(18);
+var isBuf = __webpack_require__(27);
 var toString = Object.prototype.toString;
 var withNativeBlob = typeof global.Blob === 'function' || toString.call(global.Blob) === '[object BlobConstructor]';
 var withNativeFile = typeof global.File === 'function' || toString.call(global.File) === '[object FileConstructor]';
@@ -15008,32 +15197,31 @@ exports.removeBlobs = function (data, callback) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(toString, 'toString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
-  reactHotLoader.register(withNativeBlob, 'withNativeBlob', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
-  reactHotLoader.register(withNativeFile, 'withNativeFile', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
-  reactHotLoader.register(_deconstructPacket, '_deconstructPacket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
-  reactHotLoader.register(_reconstructPacket, '_reconstructPacket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(toString, 'toString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
+
+  __REACT_HOT_LOADER__.register(withNativeBlob, 'withNativeBlob', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
+
+  __REACT_HOT_LOADER__.register(withNativeFile, 'withNativeFile', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
+
+  __REACT_HOT_LOADER__.register(_deconstructPacket, '_deconstructPacket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
+
+  __REACT_HOT_LOADER__.register(_reconstructPacket, '_reconstructPacket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/socket.io-parser/binary.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 63 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-module.exports = __webpack_require__(64);
+module.exports = __webpack_require__(67);
 
 /**
  * Exports parser
@@ -15041,31 +15229,34 @@ module.exports = __webpack_require__(64);
  * @api public
  *
  */
-module.exports.parser = __webpack_require__(7);
+module.exports.parser = __webpack_require__(4);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
-/* 64 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* WEBPACK VAR INJECTION */(function(global) {var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /**
  * Module dependencies.
  */
 
-var transports = __webpack_require__(32);
-var Emitter = __webpack_require__(6);
-var debug = __webpack_require__(17)('engine.io-client:socket');
-var index = __webpack_require__(37);
-var parser = __webpack_require__(7);
-var parseuri = __webpack_require__(29);
-var parseqs = __webpack_require__(15);
+var transports = __webpack_require__(29);
+var Emitter = __webpack_require__(3);
+var debug = __webpack_require__(14)('engine.io-client:socket');
+var index = __webpack_require__(34);
+var parser = __webpack_require__(4);
+var parseuri = __webpack_require__(26);
+var parseqs = __webpack_require__(12);
 
 /**
  * Module exports.
@@ -15194,9 +15385,9 @@ Socket.protocol = parser.protocol; // this is an int
  */
 
 Socket.Socket = Socket;
-Socket.Transport = __webpack_require__(23);
-Socket.transports = __webpack_require__(32);
-Socket.parser = __webpack_require__(7);
+Socket.Transport = __webpack_require__(20);
+Socket.transports = __webpack_require__(29);
+Socket.parser = __webpack_require__(4);
 
 /**
  * Creates transport of the given type.
@@ -15789,26 +15980,23 @@ Socket.prototype.filterUpgrades = function (upgrades) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/socket.js');
-  reactHotLoader.register(Socket, 'Socket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/socket.js');
-  reactHotLoader.register(clone, 'clone', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/socket.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/socket.js');
+
+  __REACT_HOT_LOADER__.register(Socket, 'Socket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/socket.js');
+
+  __REACT_HOT_LOADER__.register(clone, 'clone', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/socket.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 65 */
+/* 68 */
 /***/ (function(module, exports) {
 
 
@@ -15827,26 +16015,29 @@ try {
   // when trying to create
   module.exports = false;
 }
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
-/* 66 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-/**
+/* WEBPACK VAR INJECTION */(function(global) {/**
  * Module requirements.
  */
 
-var XMLHttpRequest = __webpack_require__(22);
-var Polling = __webpack_require__(33);
-var Emitter = __webpack_require__(6);
-var inherit = __webpack_require__(16);
-var debug = __webpack_require__(17)('engine.io-client:polling-xhr');
+var XMLHttpRequest = __webpack_require__(19);
+var Polling = __webpack_require__(30);
+var Emitter = __webpack_require__(3);
+var inherit = __webpack_require__(13);
+var debug = __webpack_require__(14)('engine.io-client:polling-xhr');
 
 /**
  * Module exports.
@@ -16251,28 +16442,27 @@ function unloadHandler() {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
-  reactHotLoader.register(empty, 'empty', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
-  reactHotLoader.register(XHR, 'XHR', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
-  reactHotLoader.register(Request, 'Request', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
-  reactHotLoader.register(unloadHandler, 'unloadHandler', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+
+  __REACT_HOT_LOADER__.register(empty, 'empty', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+
+  __REACT_HOT_LOADER__.register(XHR, 'XHR', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+
+  __REACT_HOT_LOADER__.register(Request, 'Request', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+
+  __REACT_HOT_LOADER__.register(unloadHandler, 'unloadHandler', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 67 */
+/* 70 */
 /***/ (function(module, exports) {
 
 
@@ -16294,13 +16484,22 @@ module.exports = Object.keys || function keys(obj) {
   }
   return arr;
 };
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
-/* 68 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module, global) {/*!
+/* WEBPACK VAR INJECTION */(function(global) {/*!
  * The buffer module from node.js, for the browser.
  *
  * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
@@ -16310,15 +16509,9 @@ module.exports = Object.keys || function keys(obj) {
 
 
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-var base64 = __webpack_require__(69);
-var ieee754 = __webpack_require__(70);
-var isArray = __webpack_require__(71);
+var base64 = __webpack_require__(72);
+var ieee754 = __webpack_require__(73);
+var isArray = __webpack_require__(74);
 
 exports.Buffer = Buffer;
 exports.SlowBuffer = SlowBuffer;
@@ -18045,83 +18238,121 @@ function isnan(val) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(typedArraySupport, 'typedArraySupport', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(kMaxLength, 'kMaxLength', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(createBuffer, 'createBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(Buffer, 'Buffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(from, 'from', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(assertSize, 'assertSize', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(alloc, 'alloc', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(allocUnsafe, 'allocUnsafe', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(fromString, 'fromString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(fromArrayLike, 'fromArrayLike', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(fromArrayBuffer, 'fromArrayBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(fromObject, 'fromObject', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(checked, 'checked', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(SlowBuffer, 'SlowBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(byteLength, 'byteLength', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(slowToString, 'slowToString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(swap, 'swap', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(bidirectionalIndexOf, 'bidirectionalIndexOf', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(arrayIndexOf, 'arrayIndexOf', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(hexWrite, 'hexWrite', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(utf8Write, 'utf8Write', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(asciiWrite, 'asciiWrite', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(latin1Write, 'latin1Write', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(base64Write, 'base64Write', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(ucs2Write, 'ucs2Write', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(base64Slice, 'base64Slice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(utf8Slice, 'utf8Slice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(MAX_ARGUMENTS_LENGTH, 'MAX_ARGUMENTS_LENGTH', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(decodeCodePointsArray, 'decodeCodePointsArray', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(asciiSlice, 'asciiSlice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(latin1Slice, 'latin1Slice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(hexSlice, 'hexSlice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(utf16leSlice, 'utf16leSlice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(checkOffset, 'checkOffset', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(checkInt, 'checkInt', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(objectWriteUInt16, 'objectWriteUInt16', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(objectWriteUInt32, 'objectWriteUInt32', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(checkIEEE754, 'checkIEEE754', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(writeFloat, 'writeFloat', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(writeDouble, 'writeDouble', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(INVALID_BASE64_RE, 'INVALID_BASE64_RE', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(base64clean, 'base64clean', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(stringtrim, 'stringtrim', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(toHex, 'toHex', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(utf8ToBytes, 'utf8ToBytes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(asciiToBytes, 'asciiToBytes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(utf16leToBytes, 'utf16leToBytes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(base64ToBytes, 'base64ToBytes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(blitBuffer, 'blitBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  reactHotLoader.register(isnan, 'isnan', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(typedArraySupport, 'typedArraySupport', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(kMaxLength, 'kMaxLength', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(createBuffer, 'createBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(Buffer, 'Buffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(from, 'from', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(assertSize, 'assertSize', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(alloc, 'alloc', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(allocUnsafe, 'allocUnsafe', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(fromString, 'fromString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(fromArrayLike, 'fromArrayLike', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(fromArrayBuffer, 'fromArrayBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(fromObject, 'fromObject', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(checked, 'checked', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(SlowBuffer, 'SlowBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(byteLength, 'byteLength', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(slowToString, 'slowToString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(swap, 'swap', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(bidirectionalIndexOf, 'bidirectionalIndexOf', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(arrayIndexOf, 'arrayIndexOf', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(hexWrite, 'hexWrite', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(utf8Write, 'utf8Write', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(asciiWrite, 'asciiWrite', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(latin1Write, 'latin1Write', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(base64Write, 'base64Write', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(ucs2Write, 'ucs2Write', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(base64Slice, 'base64Slice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(utf8Slice, 'utf8Slice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(MAX_ARGUMENTS_LENGTH, 'MAX_ARGUMENTS_LENGTH', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(decodeCodePointsArray, 'decodeCodePointsArray', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(asciiSlice, 'asciiSlice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(latin1Slice, 'latin1Slice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(hexSlice, 'hexSlice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(utf16leSlice, 'utf16leSlice', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(checkOffset, 'checkOffset', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(checkInt, 'checkInt', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(objectWriteUInt16, 'objectWriteUInt16', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(objectWriteUInt32, 'objectWriteUInt32', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(checkIEEE754, 'checkIEEE754', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(writeFloat, 'writeFloat', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(writeDouble, 'writeDouble', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(INVALID_BASE64_RE, 'INVALID_BASE64_RE', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(base64clean, 'base64clean', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(stringtrim, 'stringtrim', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(toHex, 'toHex', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(utf8ToBytes, 'utf8ToBytes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(asciiToBytes, 'asciiToBytes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(utf16leToBytes, 'utf16leToBytes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(base64ToBytes, 'base64ToBytes', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(blitBuffer, 'blitBuffer', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+
+  __REACT_HOT_LOADER__.register(isnan, 'isnan', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 69 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
 
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 exports.byteLength = byteLength;
 exports.toByteArray = toByteArray;
@@ -18244,36 +18475,42 @@ function fromByteArray(uint8) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(lookup, 'lookup', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(revLookup, 'revLookup', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(Arr, 'Arr', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(code, 'code', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(i, 'i', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(len, 'len', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(getLens, 'getLens', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(byteLength, 'byteLength', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(_byteLength, '_byteLength', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(toByteArray, 'toByteArray', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(tripletToBase64, 'tripletToBase64', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(encodeChunk, 'encodeChunk', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  reactHotLoader.register(fromByteArray, 'fromByteArray', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(lookup, 'lookup', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(revLookup, 'revLookup', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(Arr, 'Arr', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(code, 'code', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(i, 'i', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(len, 'len', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(getLens, 'getLens', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(byteLength, 'byteLength', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(_byteLength, '_byteLength', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(toByteArray, 'toByteArray', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(tripletToBase64, 'tripletToBase64', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(encodeChunk, 'encodeChunk', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+
+  __REACT_HOT_LOADER__.register(fromByteArray, 'fromByteArray', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/base64-js/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 70 */
+/* 73 */
 /***/ (function(module, exports) {
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -18360,16 +18597,19 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
   buffer[offset + i - d] |= s * 128;
 };
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
-/* 71 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
+/* 74 */
+/***/ (function(module, exports) {
 
 var toString = {}.toString;
 
@@ -18378,24 +18618,18 @@ module.exports = Array.isArray || function (arr) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(toString, 'toString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/node_modules/isarray/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(toString, 'toString', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/buffer/node_modules/isarray/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 72 */
+/* 75 */
 /***/ (function(module, exports) {
 
 /**
@@ -18435,16 +18669,19 @@ module.exports = function (arraybuffer, start, end) {
   }
   return result.buffer;
 };
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
-/* 73 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-    var enterModule = __webpack_require__(0).enterModule;
-
-    enterModule && enterModule(module);
-})();
+/* 76 */
+/***/ (function(module, exports) {
 
 module.exports = after;
 
@@ -18476,25 +18713,20 @@ function after(count, callback, err_cb) {
 function noop() {}
 ;
 
-(function () {
-    var reactHotLoader = __webpack_require__(0).default;
-
-    var leaveModule = __webpack_require__(0).leaveModule;
-
-    if (!reactHotLoader) {
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
         return;
     }
 
-    reactHotLoader.register(after, 'after', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/after/index.js');
-    reactHotLoader.register(noop, 'noop', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/after/index.js');
-    leaveModule(module);
-})();
+    __REACT_HOT_LOADER__.register(after, 'after', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/after/index.js');
+
+    __REACT_HOT_LOADER__.register(noop, 'noop', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/after/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 74 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -18729,7 +18961,7 @@ function noop() {}
 
 	// Some AMD build optimizers, like r.js, check for specific condition patterns
 	// like the following:
-	if ("function" == 'function' && _typeof(__webpack_require__(35)) == 'object' && __webpack_require__(35)) {
+	if ("function" == 'function' && _typeof(__webpack_require__(32)) == 'object' && __webpack_require__(32)) {
 		!(__WEBPACK_AMD_DEFINE_RESULT__ = (function () {
 			return utf8;
 		}).call(exports, __webpack_require__, exports, module),
@@ -18751,10 +18983,55 @@ function noop() {}
 		root.utf8 = utf8;
 	}
 })(this);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+}();
+
+;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(78)(module), __webpack_require__(0)))
 
 /***/ }),
-/* 75 */
+/* 78 */
+/***/ (function(module, exports) {
+
+module.exports = function (module) {
+	if (!module.webpackPolyfill) {
+		module.deprecate = function () {};
+		module.paths = [];
+		// module.parent = undefined by default
+		if (!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function get() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function get() {
+				return module.i;
+			}
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+}();
+
+;
+
+/***/ }),
+/* 79 */
 /***/ (function(module, exports) {
 
 /*
@@ -18831,18 +19108,21 @@ function noop() {}
     return arraybuffer;
   };
 })();
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
-/* 76 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-/**
+/* WEBPACK VAR INJECTION */(function(global) {/**
  * Create a blob builder even when vendor prefixes exist
  */
 
@@ -18935,37 +19215,33 @@ module.exports = function () {
 }();
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(BlobBuilder, 'BlobBuilder', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
-  reactHotLoader.register(blobSupported, 'blobSupported', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
-  reactHotLoader.register(blobSupportsArrayBufferView, 'blobSupportsArrayBufferView', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
-  reactHotLoader.register(blobBuilderSupported, 'blobBuilderSupported', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
-  reactHotLoader.register(mapArrayBufferViews, 'mapArrayBufferViews', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
-  reactHotLoader.register(BlobBuilderConstructor, 'BlobBuilderConstructor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
-  reactHotLoader.register(BlobConstructor, 'BlobConstructor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(BlobBuilder, 'BlobBuilder', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
+
+  __REACT_HOT_LOADER__.register(blobSupported, 'blobSupported', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
+
+  __REACT_HOT_LOADER__.register(blobSupportsArrayBufferView, 'blobSupportsArrayBufferView', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
+
+  __REACT_HOT_LOADER__.register(blobBuilderSupported, 'blobBuilderSupported', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
+
+  __REACT_HOT_LOADER__.register(mapArrayBufferViews, 'mapArrayBufferViews', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
+
+  __REACT_HOT_LOADER__.register(BlobBuilderConstructor, 'BlobBuilderConstructor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
+
+  __REACT_HOT_LOADER__.register(BlobConstructor, 'BlobConstructor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/blob/index.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 77 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 /**
  * This is the common logic for both the Node.js and web browser
@@ -18979,7 +19255,7 @@ exports.coerce = coerce;
 exports.disable = disable;
 exports.enable = enable;
 exports.enabled = enabled;
-exports.humanize = __webpack_require__(19);
+exports.humanize = __webpack_require__(16);
 
 /**
  * Active `debug` instances.
@@ -19194,44 +19470,39 @@ function coerce(val) {
 }
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(selectColor, 'selectColor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(createDebug, 'createDebug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(destroy, 'destroy', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(enable, 'enable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(disable, 'disable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(enabled, 'enabled', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
-  reactHotLoader.register(coerce, 'coerce', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(selectColor, 'selectColor', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(createDebug, 'createDebug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(destroy, 'destroy', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(enable, 'enable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(disable, 'disable', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(enabled, 'enabled', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
+
+  __REACT_HOT_LOADER__.register(coerce, 'coerce', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/node_modules/debug/src/debug.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 78 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
+/* WEBPACK VAR INJECTION */(function(global) {
 /**
  * Module requirements.
  */
 
-var Polling = __webpack_require__(33);
-var inherit = __webpack_require__(16);
+var Polling = __webpack_require__(30);
+var inherit = __webpack_require__(13);
 
 /**
  * Module exports.
@@ -19458,51 +19729,44 @@ JSONPPolling.prototype.doWrite = function (data, fn) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(rNewline, 'rNewline', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
-  reactHotLoader.register(rEscapedNewline, 'rEscapedNewline', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
-  reactHotLoader.register(callbacks, 'callbacks', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
-  reactHotLoader.register(empty, 'empty', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
-  reactHotLoader.register(JSONPPolling, 'JSONPPolling', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(rNewline, 'rNewline', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+
+  __REACT_HOT_LOADER__.register(rEscapedNewline, 'rEscapedNewline', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+
+  __REACT_HOT_LOADER__.register(callbacks, 'callbacks', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+
+  __REACT_HOT_LOADER__.register(empty, 'empty', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+
+  __REACT_HOT_LOADER__.register(JSONPPolling, 'JSONPPolling', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 79 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module, global) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-/**
+/* WEBPACK VAR INJECTION */(function(global) {/**
  * Module dependencies.
  */
 
-var Transport = __webpack_require__(23);
-var parser = __webpack_require__(7);
-var parseqs = __webpack_require__(15);
-var inherit = __webpack_require__(16);
-var yeast = __webpack_require__(36);
-var debug = __webpack_require__(17)('engine.io-client:websocket');
+var Transport = __webpack_require__(20);
+var parser = __webpack_require__(4);
+var parseqs = __webpack_require__(12);
+var inherit = __webpack_require__(13);
+var yeast = __webpack_require__(33);
+var debug = __webpack_require__(14)('engine.io-client:websocket');
 var BrowserWebSocket = global.WebSocket || global.MozWebSocket;
 var NodeWebSocket;
 if (typeof window === 'undefined') {
   try {
-    NodeWebSocket = __webpack_require__(80);
+    NodeWebSocket = __webpack_require__(84);
   } catch (e) {}
 }
 
@@ -19775,41 +20039,34 @@ WS.prototype.check = function () {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
-  reactHotLoader.register(BrowserWebSocket, 'BrowserWebSocket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
-  reactHotLoader.register(NodeWebSocket, 'NodeWebSocket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
-  reactHotLoader.register(WebSocket, 'WebSocket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
-  reactHotLoader.register(WS, 'WS', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(debug, 'debug', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
+
+  __REACT_HOT_LOADER__.register(BrowserWebSocket, 'BrowserWebSocket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
+
+  __REACT_HOT_LOADER__.register(NodeWebSocket, 'NodeWebSocket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
+
+  __REACT_HOT_LOADER__.register(WebSocket, 'WebSocket', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
+
+  __REACT_HOT_LOADER__.register(WS, 'WS', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/engine.io-client/lib/transports/websocket.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module), __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 80 */
+/* 84 */
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
-/* 81 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-    var enterModule = __webpack_require__(0).enterModule;
-
-    enterModule && enterModule(module);
-})();
+/* 85 */
+/***/ (function(module, exports) {
 
 module.exports = toArray;
 
@@ -19826,31 +20083,20 @@ function toArray(list, index) {
 }
 ;
 
-(function () {
-    var reactHotLoader = __webpack_require__(0).default;
-
-    var leaveModule = __webpack_require__(0).leaveModule;
-
-    if (!reactHotLoader) {
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
         return;
     }
 
-    reactHotLoader.register(toArray, "toArray", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/to-array/index.js");
-    leaveModule(module);
-})();
+    __REACT_HOT_LOADER__.register(toArray, "toArray", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/to-array/index.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 82 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 86 */
+/***/ (function(module, exports) {
 
-/* WEBPACK VAR INJECTION */(function(module) {(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 /**
  * Expose `Backoff`.
@@ -19937,28 +20183,22 @@ Backoff.prototype.setJitter = function (jitter) {
 };
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(Backoff, "Backoff", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/backo2/index.js");
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(Backoff, "Backoff", "F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/backo2/index.js");
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)(module)))
 
 /***/ }),
-/* 83 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(84);
+var content = __webpack_require__(88);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -19972,7 +20212,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(11)(content, options);
+var update = __webpack_require__(8)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -20004,10 +20244,10 @@ if(false) {
 }
 
 /***/ }),
-/* 84 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(7)(false);
 // imports
 
 
@@ -20025,7 +20265,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 85 */
+/* 89 */
 /***/ (function(module, exports) {
 
 
@@ -20116,22 +20356,25 @@ module.exports = function (css) {
 	// send back the fixed css
 	return fixedCss;
 };
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+}();
+
+;
 
 /***/ }),
-/* 86 */
+/* 90 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_MessageList_css__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_MessageList_css__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_MessageList_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_MessageList_css__);
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
 
 
 
@@ -20171,30 +20414,26 @@ var _default = MessageList;
 /* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(Message, 'Message', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageList.js');
-  reactHotLoader.register(MessageList, 'MessageList', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageList.js');
-  reactHotLoader.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageList.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(Message, 'Message', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageList.js');
+
+  __REACT_HOT_LOADER__.register(MessageList, 'MessageList', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageList.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageList.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)(module)))
 
 /***/ }),
-/* 87 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(88);
+var content = __webpack_require__(92);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -20208,7 +20447,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(11)(content, options);
+var update = __webpack_require__(8)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -20240,10 +20479,10 @@ if(false) {
 }
 
 /***/ }),
-/* 88 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(7)(false);
 // imports
 
 
@@ -20256,21 +20495,15 @@ exports.locals = {
 };
 
 /***/ }),
-/* 89 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_MessageForm_css__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_MessageForm_css__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_MessageForm_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_MessageForm_css__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -20331,13 +20564,6 @@ var MessageForm = function (_Component) {
         })
       );
     }
-  }, {
-    key: '__reactstandin__regenerateByEval',
-    // @ts-ignore
-    value: function __reactstandin__regenerateByEval(key, code) {
-      // @ts-ignore
-      this[key] = eval(code);
-    }
   }]);
 
   return MessageForm;
@@ -20349,29 +20575,24 @@ var _default = MessageForm;
 /* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(MessageForm, 'MessageForm', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageForm.js');
-  reactHotLoader.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageForm.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(MessageForm, 'MessageForm', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageForm.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/MessageForm.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)(module)))
 
 /***/ }),
-/* 90 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(91);
+var content = __webpack_require__(95);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -20385,7 +20606,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(11)(content, options);
+var update = __webpack_require__(8)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -20417,10 +20638,10 @@ if(false) {
 }
 
 /***/ }),
-/* 91 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(7)(false);
 // imports
 
 
@@ -20434,20 +20655,14 @@ exports.locals = {
 };
 
 /***/ }),
-/* 92 */
+/* 96 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_UsersList_css__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_UsersList_css__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_UsersList_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_UsersList_css__);
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
-
 
 
 
@@ -20479,29 +20694,24 @@ var _default = UserList;
 /* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(UserList, 'UserList', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/UserList.js');
-  reactHotLoader.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/UserList.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(UserList, 'UserList', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/UserList.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/UserList.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)(module)))
 
 /***/ }),
-/* 93 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(94);
+var content = __webpack_require__(98);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -20515,7 +20725,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(11)(content, options);
+var update = __webpack_require__(8)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -20547,10 +20757,10 @@ if(false) {
 }
 
 /***/ }),
-/* 94 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(7)(false);
 // imports
 
 
@@ -20566,21 +20776,15 @@ exports.locals = {
 };
 
 /***/ }),
-/* 95 */
+/* 99 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-(function () {
-  var enterModule = __webpack_require__(0).enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -20636,13 +20840,6 @@ var UserForm = function (_Component) {
         })
       );
     }
-  }, {
-    key: '__reactstandin__regenerateByEval',
-    // @ts-ignore
-    value: function __reactstandin__regenerateByEval(key, code) {
-      // @ts-ignore
-      this[key] = eval(code);
-    }
   }]);
 
   return UserForm;
@@ -20654,29 +20851,24 @@ var _default = UserForm;
 /* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
-(function () {
-  var reactHotLoader = __webpack_require__(0).default;
-
-  var leaveModule = __webpack_require__(0).leaveModule;
-
-  if (!reactHotLoader) {
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  reactHotLoader.register(UserForm, 'UserForm', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/UserForm.js');
-  reactHotLoader.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/UserForm.js');
-  leaveModule(module);
-})();
+  __REACT_HOT_LOADER__.register(UserForm, 'UserForm', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/UserForm.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/client/UserForm.js');
+}();
 
 ;
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)(module)))
 
 /***/ }),
-/* 96 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(97);
+var content = __webpack_require__(101);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -20690,7 +20882,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(11)(content, options);
+var update = __webpack_require__(8)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -20722,10 +20914,10 @@ if(false) {
 }
 
 /***/ }),
-/* 97 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(7)(false);
 // imports
 
 
@@ -20737,6 +20929,205 @@ exports.locals = {
 	"UserForm": "q11RiDsQBm8OLQmBlOEtI",
 	"UserInput": "TR8LzIoBeTwnATe5wLl6K"
 };
+
+/***/ }),
+/* 102 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var v1 = __webpack_require__(103);
+var v4 = __webpack_require__(104);
+
+var uuid = v4;
+uuid.v1 = v1;
+uuid.v4 = v4;
+
+module.exports = uuid;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(uuid, 'uuid', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/index.js');
+}();
+
+;
+
+/***/ }),
+/* 103 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var rng = __webpack_require__(38);
+var bytesToUuid = __webpack_require__(39);
+
+// **`v1()` - Generate time-based UUID**
+//
+// Inspired by https://github.com/LiosK/UUID.js
+// and http://docs.python.org/library/uuid.html
+
+var _nodeId;
+var _clockseq;
+
+// Previous uuid creation time
+var _lastMSecs = 0;
+var _lastNSecs = 0;
+
+// See https://github.com/broofa/node-uuid for API details
+function v1(options, buf, offset) {
+  var i = buf && offset || 0;
+  var b = buf || [];
+
+  options = options || {};
+  var node = options.node || _nodeId;
+  var clockseq = options.clockseq !== undefined ? options.clockseq : _clockseq;
+
+  // node and clockseq need to be initialized to random values if they're not
+  // specified.  We do this lazily to minimize issues related to insufficient
+  // system entropy.  See #189
+  if (node == null || clockseq == null) {
+    var seedBytes = rng();
+    if (node == null) {
+      // Per 4.5, create and 48-bit node id, (47 random bits + multicast bit = 1)
+      node = _nodeId = [seedBytes[0] | 0x01, seedBytes[1], seedBytes[2], seedBytes[3], seedBytes[4], seedBytes[5]];
+    }
+    if (clockseq == null) {
+      // Per 4.2.2, randomize (14 bit) clockseq
+      clockseq = _clockseq = (seedBytes[6] << 8 | seedBytes[7]) & 0x3fff;
+    }
+  }
+
+  // UUID timestamps are 100 nano-second units since the Gregorian epoch,
+  // (1582-10-15 00:00).  JSNumbers aren't precise enough for this, so
+  // time is handled internally as 'msecs' (integer milliseconds) and 'nsecs'
+  // (100-nanoseconds offset from msecs) since unix epoch, 1970-01-01 00:00.
+  var msecs = options.msecs !== undefined ? options.msecs : new Date().getTime();
+
+  // Per 4.2.1.2, use count of uuid's generated during the current clock
+  // cycle to simulate higher resolution clock
+  var nsecs = options.nsecs !== undefined ? options.nsecs : _lastNSecs + 1;
+
+  // Time since last uuid creation (in msecs)
+  var dt = msecs - _lastMSecs + (nsecs - _lastNSecs) / 10000;
+
+  // Per 4.2.1.2, Bump clockseq on clock regression
+  if (dt < 0 && options.clockseq === undefined) {
+    clockseq = clockseq + 1 & 0x3fff;
+  }
+
+  // Reset nsecs if clock regresses (new clockseq) or we've moved onto a new
+  // time interval
+  if ((dt < 0 || msecs > _lastMSecs) && options.nsecs === undefined) {
+    nsecs = 0;
+  }
+
+  // Per 4.2.1.2 Throw error if too many uuids are requested
+  if (nsecs >= 10000) {
+    throw new Error('uuid.v1(): Can\'t create more than 10M uuids/sec');
+  }
+
+  _lastMSecs = msecs;
+  _lastNSecs = nsecs;
+  _clockseq = clockseq;
+
+  // Per 4.1.4 - Convert from unix epoch to Gregorian epoch
+  msecs += 12219292800000;
+
+  // `time_low`
+  var tl = ((msecs & 0xfffffff) * 10000 + nsecs) % 0x100000000;
+  b[i++] = tl >>> 24 & 0xff;
+  b[i++] = tl >>> 16 & 0xff;
+  b[i++] = tl >>> 8 & 0xff;
+  b[i++] = tl & 0xff;
+
+  // `time_mid`
+  var tmh = msecs / 0x100000000 * 10000 & 0xfffffff;
+  b[i++] = tmh >>> 8 & 0xff;
+  b[i++] = tmh & 0xff;
+
+  // `time_high_and_version`
+  b[i++] = tmh >>> 24 & 0xf | 0x10; // include version
+  b[i++] = tmh >>> 16 & 0xff;
+
+  // `clock_seq_hi_and_reserved` (Per 4.2.2 - include variant)
+  b[i++] = clockseq >>> 8 | 0x80;
+
+  // `clock_seq_low`
+  b[i++] = clockseq & 0xff;
+
+  // `node`
+  for (var n = 0; n < 6; ++n) {
+    b[i + n] = node[n];
+  }
+
+  return buf ? buf : bytesToUuid(b);
+}
+
+module.exports = v1;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_nodeId, '_nodeId', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/v1.js');
+
+  __REACT_HOT_LOADER__.register(_clockseq, '_clockseq', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/v1.js');
+
+  __REACT_HOT_LOADER__.register(_lastMSecs, '_lastMSecs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/v1.js');
+
+  __REACT_HOT_LOADER__.register(_lastNSecs, '_lastNSecs', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/v1.js');
+
+  __REACT_HOT_LOADER__.register(v1, 'v1', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/v1.js');
+}();
+
+;
+
+/***/ }),
+/* 104 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var rng = __webpack_require__(38);
+var bytesToUuid = __webpack_require__(39);
+
+function v4(options, buf, offset) {
+  var i = buf && offset || 0;
+
+  if (typeof options == 'string') {
+    buf = options === 'binary' ? new Array(16) : null;
+    options = null;
+  }
+  options = options || {};
+
+  var rnds = options.random || (options.rng || rng)();
+
+  // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80;
+
+  // Copy bytes to buffer, if provided
+  if (buf) {
+    for (var ii = 0; ii < 16; ++ii) {
+      buf[i + ii] = rnds[ii];
+    }
+  }
+
+  return buf || bytesToUuid(rnds);
+}
+
+module.exports = v4;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(v4, 'v4', 'F:/Adam/programowanie/Kodilla/Chat-app-18.5/node_modules/uuid/v4.js');
+}();
+
+;
 
 /***/ })
 /******/ ]);

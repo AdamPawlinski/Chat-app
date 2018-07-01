@@ -5,6 +5,7 @@ import MessageList from './MessageList';
 import MessageForm from './MessageForm';
 import UserList from './UserList';
 import UserForm from './UserForm';
+import uuid from 'uuid';
 
 const socket = io('/');
 
@@ -12,7 +13,12 @@ class App extends Component{
   constructor(props){
     console.log(props);
     super(props);
-    this.state = {users: [], messages: [], text: '', name: ''};
+    this.state = {
+      users: [],
+      messages: [],
+      text: '',
+      name: ''
+    };
   }
 
   componentDidMount(){

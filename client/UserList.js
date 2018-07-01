@@ -8,13 +8,11 @@ const UserList = (props) => (
     </div>
     <ul className={styles.UsersList}>
       {
-        props.users.map((user) => {
-          return(
+        props.users.map((user) => (
             <li key={user.id} className={styles.UserItem}>
               {user.name}
             </li>
-          )
-        })
+        ))
       }
     </ul>
   </div>

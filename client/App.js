@@ -23,7 +23,7 @@ class App extends Component{
 
   componentDidMount(){
     socket.on('message', message => this.messageReceive(message));
-    socket.on('update', ({users}) => this.chatUpdate(users));
+    socket.on('update', ({users}) => {console.log('socket',users); this.chatUpdate(users)});
   }
 
   messageReceive(message){
@@ -33,7 +33,7 @@ class App extends Component{
   }
 
   chatUpdate(users){
-    console.log(users);
+    console.log('users', users);
     this.setState({users});
   }
 
@@ -53,6 +53,7 @@ class App extends Component{
   }
 
   renderLayout(){
+    console.log('layout', this.state);
     return (
       <div className={styles.App}>
         <div className={styles.AppHeader}>

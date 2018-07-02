@@ -14035,7 +14035,7 @@ var App = function (_Component) {
   }, {
     key: 'chatUpdate',
     value: function chatUpdate(users) {
-      console.log(users);
+      console.log('users', users);
       this.setState({ users: users });
     }
   }, {
@@ -14061,6 +14061,7 @@ var App = function (_Component) {
     value: function renderLayout() {
       var _this3 = this;
 
+      console.log('layout', this.state);
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
         { className: __WEBPACK_IMPORTED_MODULE_2__styles_App_css___default.a.App },

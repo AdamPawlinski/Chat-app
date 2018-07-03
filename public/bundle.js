@@ -14022,7 +14022,7 @@ var App = function (_Component) {
       });
       socket.on('update', function (_ref) {
         var users = _ref.users;
-        return _this2.chatUpdate(users);
+        console.log('socket', users);_this2.chatUpdate(users);
       });
     }
   }, {

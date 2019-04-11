@@ -5,12 +5,14 @@
     justify-content: flex-start;
     flex-direction: column;
     border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: .7rem;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0, .25);
 }
 
 .UsersOnline {
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
-    background: #ccc;
 }
 
 .UsersList {
@@ -21,6 +23,7 @@
 .UserItem {
     list-style: none;
     border-bottom: 1px solid #ccc;
-    padding: 20px;
-    margin: 0 0 0 20px;
+    padding: 1.5rem;
+    margin: 0 0 0 1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, .25);
 }

@@ -1,15 +1,30 @@
-.UserForm {
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;    
+}
+
+.header {
+    margin: 0 auto 20vh auto;
+    font-family: "Noto Serif TC";
+}
+.UserForm {   
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
 }
 
 .UserInput {
-    padding: 20px;
-    font-size: 2em;
+    padding: .7rem;
+    font-size: 1.3rem;
     border: 0;
     border-bottom: 1px solid #ccc;
-    width: 510px;
+    width: 40vw;
+    font-family: "Raleway";
+}
+
+.UserInput:hover {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, .25); 
 }

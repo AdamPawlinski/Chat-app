@@ -58,10 +58,10 @@ class App extends Component{
       <div className={styles.App}>
         <div className={styles.AppHeader}>
           <div className={styles.AppTitle}>
-            Chat-app
+            <h1>ChatApper</h1> <i className="fas fa-comments"></i>
           </div>
           <div className={styles.AppRoom}>
-            App room
+            <h2>Chat room</h2>
           </div>
         </div>
         <div className={styles.AppBody}>

@@ -29,7 +29,7 @@ class MessageForm extends Component{
           className={styles.MessageInput}
           onChange={e => this.changeHandler(e)}
           value={this.state.text}
-          placeholder='message'
+          placeholder='type message'
         />
       </form>
     );

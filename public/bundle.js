@@ -13991,7 +13991,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var socket = __WEBPACK_IMPORTED_MODULE_1_socket_io_client___default()('/');
+var socket = __WEBPACK_IMPORTED_MODULE_1_socket_io_client___default()();
 
 var App = function (_Component) {
   _inherits(App, _Component);
@@ -14071,12 +14071,22 @@ var App = function (_Component) {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: __WEBPACK_IMPORTED_MODULE_2__styles_App_css___default.a.AppTitle },
-            'Chat-app'
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'h1',
+              null,
+              'ChatApper'
+            ),
+            ' ',
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fas fa-comments' })
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: __WEBPACK_IMPORTED_MODULE_2__styles_App_css___default.a.AppRoom },
-            'App room'
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'h2',
+              null,
+              'Chat room'
+            )
           )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -20250,10 +20260,10 @@ if(false) {
 
 exports = module.exports = __webpack_require__(7)(false);
 // imports
-
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC|Raleway);", ""]);
 
 // module
-exports.push([module.i, "body {\n    margin: 0;\n}\n\n.jbhcemyHYTbx5fEei-zsJ {\n    display: flex;\n    flex-direction: column;\n    flex: 1;\n    height: 100vh;\n}\n\n._2QC2fPyXI1G6Bvxrl7mIjU {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    border-bottom: 1px solid #ccc;\n}\n\n.idQtPhOxm8ChXmn02C1gt {\n    display: flex;\n    width: 25vw;\n    border-right: 1px solid #ccc;\n    justify-content: center;\n    box-sizing: border-box;\n    padding: 20px;\n}\n\n._81lo0vSwS-ms2sNenIqpe {\n    display: flex;\n    width: 75vw;\n    justify-content: center;\n    box-sizing: border-box;\n    padding: 20px;\n}\n\n._3YUx8JytarMvtWLW3nJx9a {\n    display: flex;\n    flex-direction: row;\n    flex: 1;\n}\n\n._2GwyU9ywf077Za5Kz3o4oK {\n    display: flex;\n    flex-direction: column;\n    width: 75vw;\n    flex: 1;\n}", ""]);
+exports.push([module.i, "body {\r\n    margin: 0;\r\n}\r\n\r\n.jbhcemyHYTbx5fEei-zsJ {\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex: 1;\r\n    height: 100vh;\r\n    overflow: hidden;\r\n    font-family: \"Noto Serif TC\";\r\n}\r\n\r\n._2QC2fPyXI1G6Bvxrl7mIjU {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;  \r\n    box-shadow: 0 2px 5px 0 rgba(0,0,0, .25);  \r\n}\r\n\r\n.idQtPhOxm8ChXmn02C1gt {\r\n    display: flex;\r\n    width: 25vw;\r\n    border-right: 1px solid #ccc;\r\n    justify-content: center;\r\n    box-sizing: border-box;\r\n    padding: .7rem; \r\n    font-size: 1.3rem;  \r\n    box-shadow: inset 0 2px 5px 0 rgba(0,0,0, .25); \r\n}\r\n\r\n._81lo0vSwS-ms2sNenIqpe {\r\n    display: flex;\r\n    width: 75vw;\r\n    height: 100%;\r\n    justify-content: center;\r\n    align-items: center;\r\n    box-sizing: border-box;\r\n    box-shadow: inset 0 2px 5px 0 rgba(0,0,0, .25);\r\n      \r\n}\r\n\r\n._3YUx8JytarMvtWLW3nJx9a {\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex: 1;\r\n    font-family: \"Raleway\";\r\n}\r\n\r\n._2GwyU9ywf077Za5Kz3o4oK {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 75vw;\r\n    flex: 1;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -20488,11 +20498,12 @@ exports = module.exports = __webpack_require__(7)(false);
 
 
 // module
-exports.push([module.i, ".eN8sxPU06Ljd_KIeBozeG {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    width: 75vw;\n    padding: 20px;\n}", ""]);
+exports.push([module.i, ".eN8sxPU06Ljd_KIeBozeG {\r\n    flex: 1;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-start;\r\n    align-content: center;\r\n    width: 75vw;\r\n    padding: 20px;\r\n}\r\n\r\n.YRxEQ-u9Nn6B5F7jTRL3g {\r\n    align-content: center;\r\n    margin: 2vh 0 2vh 0;\r\n}\r\n\r\n.YRxEQ-u9Nn6B5F7jTRL3g span {\r\n    justify-content: center;\r\n    box-shadow: 0 2px 5px 0 rgba(0,0,0, .25);\r\n    border: 1px solid rgb(67, 175, 247);\r\n    border-radius: 5%;\r\n    padding: .5rem;\r\n    text-align: center;\r\n    margin-left: 5vw;\r\n}", ""]);
 
 // exports
 exports.locals = {
-	"MessageList": "eN8sxPU06Ljd_KIeBozeG"
+	"MessageList": "eN8sxPU06Ljd_KIeBozeG",
+	"Message": "YRxEQ-u9Nn6B5F7jTRL3g"
 };
 
 /***/ }),
@@ -20561,7 +20572,7 @@ var MessageForm = function (_Component) {
             return _this2.changeHandler(e);
           },
           value: this.state.text,
-          placeholder: 'message'
+          placeholder: 'type message'
         })
       );
     }
@@ -20647,7 +20658,7 @@ exports = module.exports = __webpack_require__(7)(false);
 
 
 // module
-exports.push([module.i, "._2xqGZ4r6PXMJ4OWZ0kMKCk {\n    display: flex;\n    flex-direction: row;\n}\n\n._8uDtvSEDS85X45Fb7t-fK {\n    flex: 1;\n    padding: 20px;\n    border: 0;\n    border-top: 1px solid #ccc;\n}", ""]);
+exports.push([module.i, "._2xqGZ4r6PXMJ4OWZ0kMKCk {\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n\r\n._8uDtvSEDS85X45Fb7t-fK {\r\n    flex: 1;\r\n    padding: 1.5rem;\r\n    border: 0;\r\n    border-top: 1px solid #ccc;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -20766,7 +20777,7 @@ exports = module.exports = __webpack_require__(7)(false);
 
 
 // module
-exports.push([module.i, "._2nRDvjjqVyYFG3qlwe6-CL {\n    display: flex;\n    flex: 1;\n    width: 25vw;\n    justify-content: flex-start;\n    flex-direction: column;\n    border-right: 1px solid #ccc;\n}\n\n._3BvzknyqLAnbVasKMlho8u {\n    padding: 20px;\n    text-align: center;\n    background: #ccc;\n}\n\n._3amxlBKZOSsef1yQYFEen1 {\n    margin: 0;\n    padding: 0;\n}\n\n._3mt3vXepVH5Sk-pwlnclNX {\n    list-style: none;\n    border-bottom: 1px solid #ccc;\n    padding: 20px;\n    margin: 0 0 0 20px;\n}", ""]);
+exports.push([module.i, "._2nRDvjjqVyYFG3qlwe6-CL {\r\n    display: flex;\r\n    flex: 1;\r\n    width: 25vw;\r\n    justify-content: flex-start;\r\n    flex-direction: column;\r\n    border-right: 1px solid #ccc;\r\n    box-sizing: border-box;\r\n    padding: .7rem;\r\n    box-shadow: 0 2px 2px 0 rgba(0,0,0, .25);\r\n}\r\n\r\n._3BvzknyqLAnbVasKMlho8u {\r\n    padding: 2rem;\r\n    text-align: center;\r\n}\r\n\r\n._3amxlBKZOSsef1yQYFEen1 {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n._3mt3vXepVH5Sk-pwlnclNX {\r\n    list-style: none;\r\n    border-bottom: 1px solid #ccc;\r\n    padding: 1.5rem;\r\n    margin: 0 0 0 1.5rem;\r\n    box-shadow: inset 0 2px 5px 0 rgba(0,0,0, .25);\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -20827,18 +20838,33 @@ var UserForm = function (_Component) {
       var _this2 = this;
 
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'form',
-        { className: __WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css___default.a.UserForm, onSubmit: function onSubmit(e) {
-            return _this2.handleSubmit(e);
-          } },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
-          className: __WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css___default.a.UserInput,
-          placeholder: 'Write yout nickname and press enter',
-          onChange: function onChange(e) {
-            return _this2.handleChange(e);
-          },
-          value: this.state.name
-        })
+        'div',
+        { className: __WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css___default.a.container },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: __WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css___default.a.header },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h1',
+            null,
+            'ChatApper'
+          ),
+          ' ',
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fas fa-comments' })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'form',
+          { className: __WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css___default.a.UserForm, onSubmit: function onSubmit(e) {
+              return _this2.handleSubmit(e);
+            } },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
+            className: __WEBPACK_IMPORTED_MODULE_1__styles_UserForm_css___default.a.UserInput,
+            placeholder: 'Write your nickname and press enter',
+            onChange: function onChange(e) {
+              return _this2.handleChange(e);
+            },
+            value: this.state.name
+          })
+        )
       );
     }
   }]);
@@ -20923,10 +20949,12 @@ exports = module.exports = __webpack_require__(7)(false);
 
 
 // module
-exports.push([module.i, ".q11RiDsQBm8OLQmBlOEtI {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 100vw;\n    height: 100vh;\n}\n\n.TR8LzIoBeTwnATe5wLl6K {\n    padding: 20px;\n    font-size: 2em;\n    border: 0;\n    border-bottom: 1px solid #ccc;\n    width: 510px;\n}", ""]);
+exports.push([module.i, ".OxTFy9OrpmNscowH6qY5B {\r\n    display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    width: 100vw;\r\n    height: 100vh;    \r\n}\r\n\r\n._16mFIG4D7P-b9nYvyLeOlm {\r\n    margin: 0 auto 20vh auto;\r\n    font-family: \"Noto Serif TC\";\r\n}\r\n.q11RiDsQBm8OLQmBlOEtI {   \r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.TR8LzIoBeTwnATe5wLl6K {\r\n    padding: .7rem;\r\n    font-size: 1.3rem;\r\n    border: 0;\r\n    border-bottom: 1px solid #ccc;\r\n    width: 40vw;\r\n    font-family: \"Raleway\";\r\n}\r\n\r\n.TR8LzIoBeTwnATe5wLl6K:hover {\r\n    box-shadow: 0 2px 5px 0 rgba(0,0,0, .25); \r\n}", ""]);
 
 // exports
 exports.locals = {
+	"container": "OxTFy9OrpmNscowH6qY5B",
+	"header": "_16mFIG4D7P-b9nYvyLeOlm",
 	"UserForm": "q11RiDsQBm8OLQmBlOEtI",
 	"UserInput": "TR8LzIoBeTwnATe5wLl6K"
 };

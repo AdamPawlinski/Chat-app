@@ -7,7 +7,7 @@ import UserList from './UserList';
 import UserForm from './UserForm';
 import uuid from 'uuid';
 
-const socket = io('/');
+const socket = io();
 
 class App extends Component{
   constructor(props){
